@@ -1,10 +1,22 @@
 site_name: Quantum Optics Group at LKB
 nav:
   - Home: index.md
-  - About: about.md
+  - Starting Package: starting-package
+  - General (bad name): general
+  - Labs: 
+    - Utils: labs/utils
+    - Rubidium: 
+      - Introduction: labs/RubidiumLab/introduction
+      - Lasers: labs/RubidiumLab/lasers
+      - Transitions: labs/RubidiumLab/transitions
+      - Turbulence: labs/RubidiumLab/turbulence
+      - Defect: labs/RubidiumLab/defect
+    - Nano: labs/NanoLab
+    - Polariton: labs/PolaritonLab
+  - About: about
   - User Guide:
-    - Writing your docs: writing-your-docs.md
-    - Styling your docs: styling-your-docs.md
+    - Writing your docs: user-guide/doc_lkb_tuto
+    - Markdown Syntax: user-guide/demo
 theme:
   name: material
 plugins:
