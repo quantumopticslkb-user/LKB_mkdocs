@@ -21,3 +21,4 @@ theme:
   name: material
 plugins:
   - mkdocs-jupyter
+  - search
