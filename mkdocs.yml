@@ -1,4 +1,5 @@
 site_name: Quantum Optics Group at LKB
+site_url: http://localhost:8000
 nav:
   - Home: index.md
   - Starting Package: starting-package
@@ -16,21 +17,23 @@ nav:
   - About: about
   - User Guide:
     - Writing your docs: user-guide/doc_lkb_tuto
-    - Markdown Syntax: user-guide/demo
+    - Markdown Reference: user-guide/demo
 theme:
   name: material
   palette: 
     - scheme: default
       toggle:
-        icon: material/brightness-7 
+        icon: octicons/moon-24
         name: Switch to dark mode
     - scheme: slate
       toggle:
-        icon: material/brightness-4
+        icon: octicons/sun-24
         name: Switch to light mode
   features:
     - search.suggest
-
+    - navigation.instant
+    - content.code.copy
+    - navigation.top
 # extra:
 #   consent:
 #     title: Cookie consent
@@ -48,9 +51,13 @@ markdown_extensions:
       generic: true
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - attr_list
   - md_in_html
-  - pymdownx.critic
   - pymdownx.caret
   - pymdownx.keys
   - pymdownx.mark
@@ -60,6 +67,7 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - def_list
 
 
 
