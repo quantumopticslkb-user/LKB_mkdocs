@@ -21,3 +21,7 @@ Go [here]()
 
 ## And dont forget the Awesome list
 [Here](https://github.com/Quantum-Optics-LKB/awesome_list)
+
+List of all the devices that we already interfaced, with examples.
+
+Stylish tools and examples for coding, creating nice figures...
