@@ -1,5 +1,5 @@
 site_name: Quantum Optics Group at LKB
-site_url: http://localhost:8000
+site_url: https://mkdocs.quantumoptics.fr
 nav:
   - Home: index.md
   - Starting Package: starting-package
