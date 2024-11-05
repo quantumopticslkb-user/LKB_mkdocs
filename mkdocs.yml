@@ -46,11 +46,11 @@ extra:
   generator: false
   social:
     - icon: fontawesome/brands/github 
-      link: https://github.com/Quantum-Optics-LKB
+      link: https://github.com/quantumopticslkb-user/LKB_mkdocs
       name: Quantum Optics group on Github
 copyright: Copyright &copy; 2024 Quantum Optics Group
-repo_url: https://github.com/quantumopticslkb-user/LKB_mkdocs
-
+repo_url: https://github.com/Quantum-Optics-LKB
+repo_name: LKB GitHub
 plugins:
   - mkdocs-jupyter
   - search
