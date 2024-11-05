@@ -2,9 +2,8 @@
 title: Administration Index
 description: 'a toc ?'
 ---
-- [Orders and mission](orders)
 - [Computers and network](computers)
 - [Data Storage](data)
+- [Rooms and Keys](rooms)
+- [Orders and mission](orders)
 - [Human Ressources](hr)
-- [Publications](publications)
-- [Templates](templates)
