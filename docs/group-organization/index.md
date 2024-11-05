@@ -28,3 +28,10 @@ You have to be added to the Google groups
 - if you are part of the Rb team: eq15b-rubidium@googlegroups.com
 
 
+
+## RbLab_Organisation repository
+
+(Private) github [repository](https://github.com/Quantum-Optics-LKB/RbLab_Organisation) to keep tracks of the Rb team meetings, ideas, roadmaps...
+
+
+
