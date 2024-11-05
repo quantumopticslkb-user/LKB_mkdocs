@@ -1,7 +1,4 @@
--- quentin
-
-### SSH
-
+# SSH
 
 SSH ([ssh : Linux](https://www.ssh.com/academy/ssh/command) and 
 [ssh : Windows](https://www.putty.org/)) is a protocol that computers use to communicate with one another. This is the protocol that you will use to connect to the shared server **LEON**  / shared folder **EQ15B**. \
@@ -14,30 +11,7 @@ On Windows, you can install `sshfs-win` and `Winfsp` following [this](http://mak
 <alert type="warning">**ONLY PATRIOT IS ACCESSIBLE ON THE OUTSIDE**</alert>\
 So if you want to have access wherever, mount Patriot and not Leon.
 
-### Python
-The most used language in the team. Mandatory to interface with the lab's equipment. \
-<alert type="warning">**YOU MUST INSTALL PYTHON THROUGH [MAMBAFORGE](https://mamba.readthedocs.io/en/latest/installation.html) : PERIOD !**</alert>
-
-Unless you need specific [Python](https://mamba.readthedocs.io/en/latest/installation.html) installs for a project and you *know exactly what you are doing*, this is the safest most complete Python install. \
-On **Linux**, it is more than recommanded to add the Python version of mamba to your `PATH` by running `conda init` at the end of the install (explained in the installer's messages). Once this is done, you should see an additional `(base)` in your command shell :
-```bash
-(base) user@computer:~$
-```
-This indicates that the `base` conda environment is activated.
-
-On **Windows**, this last step is **discouraged** ! Windows handle very differently Python installs, and you should not try to mess with it. Just do whatever the installer tells you to do ...\
-You should then use "Anaconda prompt" if you need to install stuff with `pip` or `conda`. \
-On **Mac**, it's your problem cowboy !\
-The following packages are used widely in the group and you should install them as well through `pip` :
-- `opencv-python` (imports as `cv2`)
-- `pyfftw`
-- `cupy` (see CUDA section below)
-- `scikit-image`
-- `pyvisa` (for VISA communication with scopes and other instruments)
-- `pythonnet` (.NET interface)
-
-
-### Github
+# Github
 [Github](https://github.com/) will be our best friend for code managing. Here everybody in the team share their code and get feedback from others. Also it will allows you to save your code and have backup (just in case).\
 You need to ask a permanent staff member to add your GitHub account to the Quantum-Optics-LKB *organization* in order to gain access to the team's repositories.\
 When you put code on GitHub, you share it with the rest of the team. This should encourage you to **document very thoroughly** your projects such that everyone can use your code without spending weeks reverse-engineering it.\
@@ -73,8 +47,6 @@ To finally send the changes on the remote side of the repository (on GitHub), we
 
 You can then check that everything went well by looking at the timeline pane :
 ![vscode_transit_timeline](vscode_transit_timeline.png)
-
--- myrann
 
 # Python
 
