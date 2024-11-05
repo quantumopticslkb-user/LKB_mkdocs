@@ -37,7 +37,7 @@ nav:
     - Polariton: labs/PolaritonLab
   - About: about
   - User Guide:
-    - Writing your docs: user-guide/doc_lkb_tuto
+    - Contributing to the doc: user-guide/doc_lkb_tuto
     - Markdown Reference: user-guide/demo
 theme:
   name: material

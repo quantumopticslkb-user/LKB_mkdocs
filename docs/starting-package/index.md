@@ -1,8 +1,6 @@
 --- 
 title: Welcome to the Quantum Fuilds of Light lab!
-description: 'The first steps when you arrive. Everything you need to know when you arrive (basic info).
-
-Links to tutorials: '
+description: 'The first steps when you arrive. Everything you need to know when you arrive (basic info).'
 ---
 
 ---
