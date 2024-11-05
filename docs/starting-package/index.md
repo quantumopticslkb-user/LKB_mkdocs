@@ -10,8 +10,7 @@ Here is a list of all the <strong>useful</strong> procedures, tools, info that y
 
 ## How to use this doc ?
 ### What do I need to read first ? 
-We have written a starting package which lists the first steps during your first week here.
-**Please follow: [HERE](/starting-package/starting)** 
+We have written a starting package which lists the first steps during your first week here. Please refer to the 
 
 ---
 ---
@@ -82,7 +81,3 @@ Go [here]()
 
 ## And dont forget the Awesome list
 [Here](https://github.com/Quantum-Optics-LKB/awesome_list)
-
-List of all the devices that we already interfaced, with examples.
-
-Stylish tools and examples for coding, creating nice figures...
