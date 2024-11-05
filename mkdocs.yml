@@ -4,7 +4,13 @@ nav:
   - Home: index.md
   - Starting Package: starting-package
   - Awesome List: awesome-list
-  - Admin: admin
+  - Admin: 
+    - Computers: admin/computers
+    - Data: admin/data
+    - Human ressources: admin/hr
+    - Orders: admin/orders
+    - Lunch: admin/restaurant
+    - Keys & Rooms: admin/rooms
   - Group Organization: group-organization
   - Programming: programming
   - Instruments: 
