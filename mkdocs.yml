@@ -3,6 +3,7 @@ site_url: https://mkdocs.quantumoptics.fr
 nav:
   - Home: index.md
   - Starting Package: starting-package
+  - Awesome List: awesome-list
   - General (bad name): general
   - Labs: 
     - Utils: labs/utils
