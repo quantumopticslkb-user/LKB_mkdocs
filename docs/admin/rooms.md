@@ -22,11 +22,12 @@ Sometimes, the key might be a little buggy, in this case you might want to reviv
 - Small meeting rooms : 12-13, hallway Est, facing the 201
 
 - Rubidium and Polariton thesarium : 12-13 304
+- Rubidium extra offices : 12-13 302
 - Nano-optics thesarium : 12-13 215
 
-- Rubidium lab : 12-13 311
+- Rubidium lab : SS 23-33 108
+- Nanoptics lab : next to Rubidium lab
 - Polariton lab : 12-13 313
-- Nanoptics lab : 13-23 212
 
 - Electronics lab : 12-13 309
 - IT guys : 12-13 306 
