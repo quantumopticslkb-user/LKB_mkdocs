@@ -42,15 +42,20 @@ theme:
     - content.code.copy
     - navigation.top
     - navigation.footer
+    - content.action.edit
+    # - content.action.view
+  icon:
+    repo: fontawesome/brands/git-alt 
 extra:
   generator: false
   social:
-    - icon: fontawesome/brands/github 
-      link: https://github.com/quantumopticslkb-user/LKB_mkdocs
+    - icon: fontawesome/brands/github
+      link: https://github.com/Quantum-Optics-LKB
       name: Quantum Optics group on Github
 copyright: Copyright &copy; 2024 Quantum Optics Group
-repo_url: https://github.com/Quantum-Optics-LKB
+repo_url: https://github.com/quantumopticslkb-user/LKB_mkdocs
 repo_name: LKB GitHub
+edit_uri: tree/main/docs/
 plugins:
   - mkdocs-jupyter
   - search
