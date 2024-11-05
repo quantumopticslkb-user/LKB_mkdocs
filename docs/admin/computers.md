@@ -1,9 +1,34 @@
 ---
 title: Computers and network
-description: ''
-position: 1
+description: 'A guide to all IT stuff'
 category: Tutorials
 ---
+
+### LKB email
+
+**1**. A
+
+**2**. B
+
+**3**. C
+
+### VPN
+
+**1**. A
+
+**2**. B
+
+**3**. C
+
+### CNRS Account (Janus)
+
+**1**. A
+
+**2**. B
+
+**3**. C
+
+
 ## Contact the LKB IT support
 
 For your general IT issues contact the IT support (Adil Khalfa). To do so:

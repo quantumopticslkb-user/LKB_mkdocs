@@ -5,9 +5,9 @@ nav:
   - Starting Package: starting-package
   - Awesome List: awesome-list
   - Admin: admin
-  - IT: it
   - Programming: programming
   - Instruments: instruments
+  - Publications: publications
   - Labs: 
     - Utils: labs/utils
     - Rubidium: 
@@ -24,12 +24,15 @@ nav:
     - Markdown Reference: user-guide/demo
 theme:
   name: material
+  logo: assets/LKB_Logo.png
   palette: 
     - scheme: default
+      primary: blue grey
       toggle:
         icon: octicons/moon-24
         name: Switch to dark mode
     - scheme: slate
+      primary: pink
       toggle:
         icon: octicons/sun-24
         name: Switch to light mode
