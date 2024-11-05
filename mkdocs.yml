@@ -49,6 +49,7 @@ extra:
       link: https://github.com/Quantum-Optics-LKB
       name: Quantum Optics group on Github
 copyright: Copyright &copy; 2024 Quantum Optics Group
+repo_url: https://github.com/quantumopticslkb-user/LKB_mkdocs
 
 plugins:
   - mkdocs-jupyter
