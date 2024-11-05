@@ -1,33 +1,16 @@
 ---
-title: Computers and network
+title: Computers and networks
 description: 'A guide to all IT stuff'
 category: Tutorials
 ---
 
 ### LKB email
 
-**1**. A
-
-**2**. B
-
-**3**. C
-
-### VPN
-
-**1**. A
-
-**2**. B
-
-**3**. C
+Present yourself to the administration board to Stephanie to get your @lkb.upmc.fr email adress!
 
 ### CNRS Account (Janus)
 
-**1**. A
-
-**2**. B
-
-**3**. C
-
+This account is created automatically when you have an LKB account. You can then connect to Janus authentification service (add link). It centralizes all the CNRS tools.
 
 ## Contact the LKB IT support
 
@@ -77,6 +60,14 @@ The email must feature the info
 2. In the bottom right adress bar type : `ssh://login@patriot.lkb.upmc.fr:/partages/EQ15B/LEON-15B`
 3. Password (don't forget to tick "Remember password")
    See the following detailed explanation for [ssh](/StartingPackage/Tools#ssh)
+
+### VPN
+
+VPN allows to acces the lab network from anywhere. To get an access, download OpenVPN (on Windows) or TunnelBlick (macOS) and contact the IT support. They will generate a configuration file for you.
+
+
+
+
 
 ## Inventory
 
