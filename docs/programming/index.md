@@ -1,3 +1,16 @@
+--- 
+title: Welcome to the programming section!
+description: 'Learn the basics for programming tools.
+
+Links to tutorials: '
+---
+
+---
+Learn the basics for programming tools.
+---
+Here are the programming tools that are commonly (mandatory) used in the team.
+
+
 ## SSH
 
 SSH ([ssh : Linux](https://www.ssh.com/academy/ssh/command) and 
