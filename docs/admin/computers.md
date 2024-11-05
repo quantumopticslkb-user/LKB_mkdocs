@@ -1,33 +1,16 @@
 ---
-title: Computers and network
+title: Computers and networks
 description: 'A guide to all IT stuff'
 category: Tutorials
 ---
 
 ### LKB email
 
-**1**. A
-
-**2**. B
-
-**3**. C
-
-### VPN
-
-**1**. A
-
-**2**. B
-
-**3**. C
+Present yourself to the administration board at room 13-23 203 to get your @lkb.upmc.fr email adress! (Stéphanie or David can help you)
 
 ### CNRS Account (Janus)
 
-**1**. A
-
-**2**. B
-
-**3**. C
-
+This account is created automatically when you have an LKB account. You can then connect to [Janus authentification service](https://magelan.cnrs.fr/). It centralizes all the CNRS tools.
 
 ## Contact the LKB IT support
 
@@ -78,7 +61,14 @@ The email must feature the info
 3. Password (don't forget to tick "Remember password")
    See the following detailed explanation for [ssh](/StartingPackage/Tools#ssh)
 
-## Inventory
+### VPN
+
+VPN allows to acces the lab network from anywhere. To get an access, download OpenVPN (on Windows) or TunnelBlick (macOS) and contact the IT support. They will generate a configuration file for you.
+
+
+
+
+## Inventory (to move)
 
 ### LKB network
 
