@@ -1,5 +1,5 @@
 ---
-title: General index
+title: Administration Index
 description: 'a toc ?'
 ---
 - [Orders and mission](orders)
