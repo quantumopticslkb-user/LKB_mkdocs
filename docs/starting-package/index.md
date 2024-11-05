@@ -25,7 +25,7 @@ These are first steps when you arrive. The following sections outline everything
 - Ask for the IP/MAC address (Your computer identifier) of your computer to be [recorded on the network](/general/computers_and_network#adding-a-computer-to-the-network)
 
 ### Set up the basic coding tools
-- Check that you can join the [server LEON](/general/computers_and_network#map-a-network-drive-%EF%B8%8Fyou-need-a-lkb-email-account) (to be used for storing epxeimental data and simulation results).
+- Check that you can join the [server LEON](/general/computers_and_network#map-a-network-drive-%EF%B8%8Fyou-need-a-lkb-email-account). This is used to store experimental data and simulation results.
 !!! warning
     This can be done only when you have an email address and open a ticket by [sending an email here](mailto:support@lkb.upmc.fr)
 - Install [VS Code](/general/tools#vs-code) and [Python (via Mambaforge)](/general/tools#python)
