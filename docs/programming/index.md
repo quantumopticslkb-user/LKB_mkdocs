@@ -120,8 +120,8 @@ And you can add extensions to help you. Here a list of mandatory extensions :
 
 Most of these extensions do not need any settings, but if you wish to, you can access those in the "Extensions" tab on the left of VS Code.\
 
-## ChatGPT - An Assistant for QuantumOptics Documentation
-
+## ChatGPT
+- An Assistant for QuantumOptics Documentation
 This guide is authored to help you navigate and utilize ChatGPT within the QuantumOptics documentation effectively. If you need access, please find the login credentials on the team's Mattermost channel.
 
 ---
