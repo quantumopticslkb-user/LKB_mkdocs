@@ -10,7 +10,7 @@ Present yourself to the administration board to Stephanie to get your @lkb.upmc.
 
 ### CNRS Account (Janus)
 
-This account is created automatically when you have an LKB account. You can then connect to Janus authentification service (add link). It centralizes all the CNRS tools.
+This account is created automatically when you have an LKB account. You can then connect to [Janus authentification service](https://magelan.cnrs.fr/). It centralizes all the CNRS tools.
 
 ## Contact the LKB IT support
 
@@ -68,8 +68,7 @@ VPN allows to acces the lab network from anywhere. To get an access, download Op
 
 
 
-
-## Inventory
+## Inventory (to move)
 
 ### LKB network
 
