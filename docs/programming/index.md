@@ -119,3 +119,29 @@ And you can add extensions to help you. Here a list of mandatory extensions :
 
 
 Most of these extensions do not need any settings, but if you wish to, you can access those in the "Extensions" tab on the left of VS Code.\
+
+## ChatGPT - An Assistant for QuantumOptics Documentation
+
+This guide is authored to help you navigate and utilize ChatGPT within the QuantumOptics documentation effectively. If you need access, please find the login credentials on the team's Mattermost channel.
+
+---
+
+Welcome to the QuantumOptics documentation portal, designed to offer precise and practical information on quantum optics. To enhance your experience, we've integrated the ChatGPT assistant, an intelligent tool that guides you through the documentation.
+
+### How to Use ChatGPT:
+
+1. **General Questions:** Ask ChatGPT for explanations on broad quantum optics concepts, technical details, or practical examples.
+2. **Advanced Assistance:** For specific information (such as exact sections or calculations), ChatGPT can point you directly to the relevant documentation section or provide in-depth explanations.
+3. **Interactive Guidance:** Use ChatGPT to get best practice suggestions, concept overviews, or links to complementary articles—all within the context of your inquiry.
+
+### Why Use ChatGPT?
+
+- **Speed and Precision:** Get quick, accurate answers tailored to your research needs.
+- **Accessibility:** Save time by locating documentation sections more efficiently.
+- **Personalized Assistance:** Enjoy contextualized responses that match your knowledge level and study goals.
+
+Try ChatGPT now to simplify your journey through the documentation and deepen your understanding of quantum optics.
+
+---
+
+For any issues accessing ChatGPT, please refer to the Mattermost channel for updated login credentials.
