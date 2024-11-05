@@ -68,13 +68,12 @@ You should then use "Anaconda prompt" if you need to install stuff with `pip` or
 But if you need to sepcify the PATH you can enter `env` in windows search. Then `environment variable`, select `PATH` and modify and add the adress of your anaconda installation like `C:\Users\[user_name]\anaconda3\Scripts`.
 
 - **Mac**, it's your problem cowboy !\
-The following packages are used widely in the group and you should install them as well through `pip` :
-  - `opencv-python` (imports as `cv2`)
-  - `pyfftw`
-  - `cupy` (see CUDA section below)
-  - `scikit-image`
-  - `pyvisa` (for VISA communication with scopes and other instruments)
-  - `pythonnet` (.NET interface)
+The following packages are used widely in the group and you should install them as well through `pip` : `opencv-python` (imports as `cv2`)
+  * `pyfftw`
+  * `cupy` (see CUDA section below)
+  * `scikit-image`
+  * `pyvisa` (for VISA communication with scopes and other instruments)
+  * `pythonnet` (.NET interface)
 
 # Julia
 [Julia](https://julialang.org/) is a very nice JIT-compiled langage that is gaining a lot of popularity in the scientific community. Offers a lot of performance for numerical calculations. 
