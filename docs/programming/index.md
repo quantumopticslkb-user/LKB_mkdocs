@@ -19,7 +19,7 @@ When connecting to a remote server that has your public key, your identity is ve
 can unlock your public key. Keeping your private key secure is crucial, as anyone with access to your private key can impersonate you and 
 access servers that have your public key.
 
-## Key generation
+### Key generation
 
 In order to use SSH authentication, you need SSH keys. In this section of the tutorial, we will show you how to generate SSH keys on Windows, Mac, and Linux.
 
