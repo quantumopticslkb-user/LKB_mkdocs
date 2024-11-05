@@ -1,4 +1,17 @@
-# SSH
+--- 
+title: Welcome to the programming section!
+description: 'Learn the basics for programming tools.
+
+Links to tutorials: '
+---
+
+---
+Learn the basics for programming tools.
+---
+Here are the programming tools that are commonly (mandatory) used in the team.
+
+
+## SSH
 
 SSH ([ssh : Linux](https://www.ssh.com/academy/ssh/command) and 
 [ssh : Windows](https://www.putty.org/)) is a protocol that computers use to communicate with one another. This is the protocol that you will use to connect to the shared server **LEON**  / shared folder **EQ15B**. \
@@ -11,7 +24,7 @@ On Windows, you can install `sshfs-win` and `Winfsp` following [this](http://mak
 <alert type="warning">**ONLY PATRIOT IS ACCESSIBLE ON THE OUTSIDE**</alert>\
 So if you want to have access wherever, mount Patriot and not Leon.
 
-# Github
+## Github
 [Github](https://github.com/) will be our best friend for code managing. Here everybody in the team share their code and get feedback from others. Also it will allows you to save your code and have backup (just in case).\
 You need to ask a permanent staff member to add your GitHub account to the Quantum-Optics-LKB *organization* in order to gain access to the team's repositories.\
 When you put code on GitHub, you share it with the rest of the team. This should encourage you to **document very thoroughly** your projects such that everyone can use your code without spending weeks reverse-engineering it.\
@@ -48,7 +61,7 @@ To finally send the changes on the remote side of the repository (on GitHub), we
 You can then check that everything went well by looking at the timeline pane :
 ![vscode_transit_timeline](vscode_transit_timeline.png)
 
-# Python
+## Python
 
 The most used language in the team. Mandatory to interface with the lab's equipment. \
 You can install python throught [Conda-forge](https://conda-forge.org/) or if you are a nerd [MAMBAFORGE](https://mamba.readthedocs.io/en/latest/installation/mamba-installation.html).
@@ -69,7 +82,7 @@ But if you need to sepcify the PATH you can enter `env` in windows search. Then 
 The following packages are used widely in the group and you should install them as well through `pip` : `opencv-python` (imports as `cv2`): `pyfftw`, `cupy` (see CUDA section below), `scikit-image`, `pyvisa` (for VISA communication with scopes and other instruments), `pythonnet` (.NET interface)
 
 
-# VS Code
+## VS Code
 
 [VSCode](https://code.visualstudio.com/): the world's most used code editor : not for nothing. In this editor you will be able to run any language you want but also write your papers in Latex or your lab book in Markdown. 
 
@@ -106,3 +119,29 @@ And you can add extensions to help you. Here a list of mandatory extensions :
 
 
 Most of these extensions do not need any settings, but if you wish to, you can access those in the "Extensions" tab on the left of VS Code.\
+
+## ChatGPT - An Assistant for QuantumOptics Documentation
+
+This guide is authored to help you navigate and utilize ChatGPT within the QuantumOptics documentation effectively. If you need access, please find the login credentials on the team's Mattermost channel.
+
+---
+
+Welcome to the QuantumOptics documentation portal, designed to offer precise and practical information on quantum optics. To enhance your experience, we've integrated the ChatGPT assistant, an intelligent tool that guides you through the documentation.
+
+### How to Use ChatGPT:
+
+1. **General Questions:** Ask ChatGPT for explanations on broad quantum optics concepts, technical details, or practical examples.
+2. **Advanced Assistance:** For specific information (such as exact sections or calculations), ChatGPT can point you directly to the relevant documentation section or provide in-depth explanations.
+3. **Interactive Guidance:** Use ChatGPT to get best practice suggestions, concept overviews, or links to complementary articles—all within the context of your inquiry.
+
+### Why Use ChatGPT?
+
+- **Speed and Precision:** Get quick, accurate answers tailored to your research needs.
+- **Accessibility:** Save time by locating documentation sections more efficiently.
+- **Personalized Assistance:** Enjoy contextualized responses that match your knowledge level and study goals.
+
+Try ChatGPT now to simplify your journey through the documentation and deepen your understanding of quantum optics.
+
+---
+
+For any issues accessing ChatGPT, please refer to the Mattermost channel for updated login credentials.
