@@ -18,6 +18,8 @@ Used for communication inside the team and with other lkb members.
 
 - [Join the lkb-all server]
 
+- Join the "Orders" board,to kepp tracks of the orders. 
+
 
 ## Google groups and calendars
 
