@@ -53,19 +53,19 @@ You can then check that everything went well by looking at the timeline pane :
 The most used language in the team. Mandatory to interface with the lab's equipment. \
 You can install python throught [Conda-forge](https://conda-forge.org/) or if you are a nerd [MAMBAFORGE](https://mamba.readthedocs.io/en/latest/installation/mamba-installation.html).
 
-Unless you need specific installs for a project and you *know exactly what you are doing*, this is the safest most complete Python install. \
+Unless you need specific installs for a project and you *know exactly what you are doing*, this is the safest most complete Python install. 
 
 - **Linux**, it is more than recommanded to add the Python version of conda/mamba to your `PATH` by running `conda init` at the end of the install (explained in the installer's messages). Once this is done, you should see an additional `(base)` in your command shell :
 ```bash
 (base) user@computer:~$
 ```
-This indicates that the `base` conda environment is activated.\
+This indicates that the `base` conda environment is activated.
 
-- **Windows**, this last step is **discouraged** ! Windows handle very differently Python installs, and you should not try to mess with it. Just do whatever the installer tells you to do.\
-You should then use "Anaconda prompt" if you need to install stuff with `pip` or `conda`. \
+- **Windows**, this last step is **discouraged** ! Windows handle very differently Python installs, and you should not try to mess with it. Just do whatever the installer tells you to do.
+You should then use "Anaconda prompt" if you need to install stuff with `pip` or `conda`.
 But if you need to sepcify the PATH you can enter `env` in windows search. Then `environment variable`, select `PATH` and modify and add the adress of your anaconda installation like `C:\Users\[user_name]\anaconda3\Scripts`.
-
-- **Mac**, it's your problem cowboy !\
+    
+- **Mac**, it's your problem cowboy !
 The following packages are used widely in the group and you should install them as well through `pip` : `opencv-python` (imports as `cv2`): `pyfftw`, `cupy` (see CUDA section below), `scikit-image`, `pyvisa` (for VISA communication with scopes and other instruments), `pythonnet` (.NET interface)
 
 
