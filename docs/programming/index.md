@@ -50,10 +50,8 @@ You can then check that everything went well by looking at the timeline pane :
 
 # Python
 
-[Anaconda](https://www.anaconda.com/)
-
 The most used language in the team. Mandatory to interface with the lab's equipment. \
-You can install python throught [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) or if you are a nerd [MAMBAFORGE](https://mamba.readthedocs.io/en/latest/installation/mamba-installation.html).
+You can install python throught [Conda-forge](https://conda-forge.org/) or if you are a nerd [MAMBAFORGE](https://mamba.readthedocs.io/en/latest/installation/mamba-installation.html).
 
 Unless you need specific installs for a project and you *know exactly what you are doing*, this is the safest most complete Python install. \
 
@@ -68,19 +66,8 @@ You should then use "Anaconda prompt" if you need to install stuff with `pip` or
 But if you need to sepcify the PATH you can enter `env` in windows search. Then `environment variable`, select `PATH` and modify and add the adress of your anaconda installation like `C:\Users\[user_name]\anaconda3\Scripts`.
 
 - **Mac**, it's your problem cowboy !\
-The following packages are used widely in the group and you should install them as well through `pip` :
-  - `opencv-python` (imports as `cv2`)
-  - `pyfftw`
-  - `cupy` (see CUDA section below)
-  - `scikit-image`
-  - `pyvisa` (for VISA communication with scopes and other instruments)
-  - `pythonnet` (.NET interface)
+The following packages are used widely in the group and you should install them as well through `pip` : `opencv-python` (imports as `cv2`): `pyfftw`, `cupy` (see CUDA section below), `scikit-image`, `pyvisa` (for VISA communication with scopes and other instruments), `pythonnet` (.NET interface)
 
-# Julia
-[Julia](https://julialang.org/) is a very nice JIT-compiled langage that is gaining a lot of popularity in the scientific community. Offers a lot of performance for numerical calculations. 
-
-# CUDA 
-[CUDA](https://developer.nvidia.com/cuda-toolkit) is a variant of C++ used to do computations on Nvidia GPU's. It is very useful if you have a Nvidia GPU on your computer to massively speed up FFT calculations (that occur a lot in optics simulation, NLSE simulations) in conjuction with [CuPy](https://cupy.dev/).
 
 # VS Code
 
@@ -88,17 +75,20 @@ The following packages are used widely in the group and you should install them 
 
 ### Link your github account
 
-Allows you to link vscode to your github account in order to commit your repository 
+Vscode allows you to link vscode to your github account in order to commit your repository. You can follow the tuto for [github in vscode](https://code.visualstudio.com/docs/sourcecontrol/github)
 
 ### Create and change environement
 
-Create separate environement to avoid package conflict: science, image, web etc...
-
+You shoul create separate environement to avoid package conflict: science, image, web etc... Sometimes installing a new package using `pip` or `conda` will update force the update of other package. For example doing `pip install opencv-python` will force the update of numpy but the new version of numpy will not work with your version of matplotlib and then you have to downgrade numpy.....!
+To create a new environement you can open a new terminal and use the command:
 ```bash
 conda create -n <env-name>
+```
+and the environement:
+```bash
 conda activate <env-name>
 ```
-
+Don't forget that the packages you've installed on one environment aren't necessarily on the one you've created. 
 
 
 ### Extensions

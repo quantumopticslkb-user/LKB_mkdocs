@@ -6,6 +6,7 @@ nav:
   - Awesome List: awesome-list
   - Admin: admin
   - Programming: programming
+  - Instruments: instruments
   - Publications: publications
   - Labs: 
     - Utils: labs/utils
@@ -40,14 +41,21 @@ theme:
     - navigation.instant
     - content.code.copy
     - navigation.top
+    - navigation.footer
+    - content.action.edit
+    # - content.action.view
+  icon:
+    repo: fontawesome/brands/git-alt 
 extra:
-  consent:
-    title: Cookie consent
-    description: >- 
-      We use cookies to recognize your repeated visits and preferences, as well
-      as to measure the effectiveness of our documentation and whether users
-      find what they're searching for. With your consent, you're helping us to
-      make our documentation better.
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Quantum-Optics-LKB
+      name: Quantum Optics group on Github
+copyright: Copyright &copy; 2024 Quantum Optics Group
+repo_url: https://github.com/quantumopticslkb-user/LKB_mkdocs
+repo_name: LKB GitHub
+edit_uri: tree/main/docs/
 plugins:
   - mkdocs-jupyter
   - search
