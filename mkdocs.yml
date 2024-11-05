@@ -5,13 +5,15 @@ nav:
   - Starting Package: starting-package
   - Awesome List: awesome-list
   - Admin: 
-    - Computers: admin/computers
-    - Data: admin/data
+    - IT Guide: admin/computers
     - Human ressources: admin/hr
-    - Orders: admin/orders
-    - Lunch: admin/restaurant
+    - Passing Orders: admin/orders
+    - Go to Lunch: admin/restaurant
     - Keys & Rooms: admin/rooms
-  - Group Organization: group-organization
+    - Data: group-organization/data
+  - Group Organization: 
+    - Essential Tools: group-organization/tools
+    - Data management: group-organization/data
   - Programming: programming
   - Instruments: 
     - AFG: instruments/AFG
