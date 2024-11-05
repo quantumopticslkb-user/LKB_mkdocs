@@ -6,19 +6,18 @@ Links to tutorials: '
 ---
 
 ---
-The first steps when you arrive
----
-Here is a list of all the <strong>useful</strong> procedures, tools, info that you would need to survive and thrive in the group ! Welcome !
+## The first steps when you arrive
+
+Here is a list of all the <strong>useful</strong> procedures, tools, info that you would need to survive and thrive in the group ! **Welcome !**
 
 These are first steps when you arrive. The following sections outline everything you need to know when you arrive (basic info). 
 
-We have written a starting package which lists the first steps during your first week here. 
+!!! Note "Getting started"
+    We have written a starting package which lists the first steps during your first week here. <br>
+    **Follow these steps (in order) and enjoy !!!**
 
 
-Follow these steps (in order) and enjoy !!!
-
-
-### Admin
+## Admin
 
 - Go to the admin office (13-23, 2nd floor) and introduce yourself !
 - Get a [key](/general/admin#obtain-a-kaba-key)
@@ -28,12 +27,12 @@ Follow these steps (in order) and enjoy !!!
 - Install [VS Code](/general/tools#vs-code) and [Python (via Mambaforge)](/general/tools#python)
 - (Optional: Set up the VPN)
 
-    ### Food
+### Food
 
 - To eat in the CROUS with the team you need to have a card. Go to room 13-23 203 and ask what to do.
 - To use the coffee machine you need to buy tickets in the office in front of the coffee room. (25c each)
 
-    ### Human Resources
+### Human Resources
     
 - For vacations : [see this link](/general/admin#go-on-vacation)
 - For telework : [see this link](/general/admin#telework)
