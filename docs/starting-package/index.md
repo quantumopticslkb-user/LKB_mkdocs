@@ -45,10 +45,12 @@ These are first steps when you arrive. The following sections outline everything
 
 ### Join the mandatory group tools 
 !!! note 
-    This means you must create your accounts and log in to all this.
+    This means you **must** create your accounts and log in to all this (be sure to make it work **NOW**). 
 
 - [Join](/general/tools#mattermost) LKB-mattermost and Quantum-mattermost (and the channels inside)
-- Create a GitHub account, join the [Group github](https://github.com/Quantum-Optics-LKB ) and [learn how to use it](/general/tools#github)
+- Be sure to have access to all the group calendars.
+- Create a GitHub account, join the [Group github](https://github.com/Quantum-Optics-LKB ) and [learn how to use it](/general/tools#github).
+    * Check that you have push access on the group github.
 - Join the [group calendar](/general/tools#google-calendar)
 - Create a [Zotero account](/general/tools#zotero) and join the [group library](https://www.zotero.org/groups/4622968/quantumopticslkb)
 - Create an Overleaf account
