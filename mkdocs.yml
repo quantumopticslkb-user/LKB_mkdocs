@@ -8,8 +8,8 @@ nav:
   - Programming: programming
   - Instruments: 
     - AFG: instruments/AFG
-    - Camera: instruments/cameras
-    - Laser: instruments/lasers
+    - Camera: instruments/camera
+    - Laser: instruments/laser
     - Motorized Stage: instruments/motorized-stage
     - Power Supply: instruments/power-supply
     - Oscilloscope: instruments/scopes
