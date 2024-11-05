@@ -6,7 +6,7 @@ category: Tutorials
 
 ### LKB email
 
-Present yourself to the administration board to Stephanie to get your @lkb.upmc.fr email adress!
+Present yourself to the administration board at room 13-23 203 to get your @lkb.upmc.fr email adress! (Stéphanie or David can help you)
 
 ### CNRS Account (Janus)
 
