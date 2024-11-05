@@ -4,7 +4,8 @@ nav:
   - Home: index.md
   - Starting Package: starting-package
   - Awesome List: awesome-list
-  - General (bad name): general
+  - Admin: admin
+  - IT: it
   - Labs: 
     - Utils: labs/utils
     - Rubidium: 
