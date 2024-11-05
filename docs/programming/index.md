@@ -75,17 +75,20 @@ The following packages are used widely in the group and you should install them 
 
 ### Link your github account
 
-Allows you to link vscode to your github account in order to commit your repository 
+Vscode allows you to link vscode to your github account in order to commit your repository. You can follow the tuto for [github in vscode](https://code.visualstudio.com/docs/sourcecontrol/github)
 
 ### Create and change environement
 
-Create separate environement to avoid package conflict: science, image, web etc...
-
+You shoul create separate environement to avoid package conflict: science, image, web etc... Sometimes installing a new package using `pip` or `conda` will update force the update of other package. For example doing `pip install opencv-python` will force the update of numpy but the new version of numpy will not work with your version of matplotlib and then you have to downgrade numpy.....!
+To create a new environement you can open a new terminal and use the command:
 ```bash
 conda create -n <env-name>
+```
+and the environement:
+```bash
 conda activate <env-name>
 ```
-
+Don't forget that the packages you've installed on one environment aren't necessarily on the one you've created. 
 
 
 ### Extensions
