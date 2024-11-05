@@ -25,26 +25,27 @@ In order to use SSH authentication, you need SSH keys. In this section of the tu
 
 ??? Windows
 
-  If you are using Windows 10, you will need to install the OpenSSH client before continuing with the following steps.
-  - Go to **Setting** > **Apps** > **Optional Features**.
-  - Click on **Add a feature**.
-  - Search for OpenSSH client and install it.
-  - Note: Windows 11 has the OpenSSH client installed by default.
+    If you are using Windows 10, you will need to install the OpenSSH client before continuing with the following steps.
+    - Go to **Setting** > **Apps** > **Optional Features**.
+    - Click on **Add a feature**.
+    - Search for OpenSSH client and install it.
+    - Note: Windows 11 has the OpenSSH client installed by default.
 
   
 ??? Linux
 
-  If you are using Linux, ssh is probably already installed. You can check by running
-  - ```$ ssh -v
-  usage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface] [-b bind_address]
-           [-c cipher_spec] [-D [bind_address:]port] [-E log_file]
-           [-e escape_char] [-F configfile] [-I pkcs11] [-i identity_file]
-           [-J destination] [-L address] [-l login_name] [-m mac_spec]
-           [-O ctl_cmd] [-o option] [-P tag] [-p port] [-R address]
-           [-S ctl_path] [-W host:port] [-w local_tun[:remote_tun]]
-           destination [command [argument ...]]
-       ssh [-Q query_option]
-  ```
+    If you are using Linux, ssh is probably already installed. You can check by running
+    - ```
+    $ ssh -v
+    usage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface] [-b bind_address]
+             [-c cipher_spec] [-D [bind_address:]port] [-E log_file]
+             [-e escape_char] [-F configfile] [-I pkcs11] [-i identity_file]
+             [-J destination] [-L address] [-l login_name] [-m mac_spec]
+             [-O ctl_cmd] [-o option] [-P tag] [-p port] [-R address]
+             [-S ctl_path] [-W host:port] [-w local_tun[:remote_tun]]
+             destination [command [argument ...]]
+         ssh [-Q query_option]
+    ```
 
   If it's not, you need to install it using your distribution package manager, refer to your distribution documentation for more information
 
@@ -63,7 +64,8 @@ You will be asked to re-enter your passphrase. Do so and press Enter.
 - `Enter same passphrase again:`
 
 You will see output similar to this, indicating that your SSH keys have been generated.
-- ```Your identification has been saved in /home/<username>/.ssh/id_rsa
+- ```
+Your identification has been saved in /home/<username>/.ssh/id_rsa
  Your public key has been saved in /home/<username>/.ssh/id_rsa.pub
  The key fingerprint is:
  SHA256:YwOXM1rI+idGlqftABaj7gRtvV9rwWcXGm21NeFSVXw <username>@<hostname>
