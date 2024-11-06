@@ -10,4 +10,4 @@ description: 'A guide for the instruments'
 - [Motorized optomechanics](motorizedoptomechanics)
 - [Cameras](Cameras)
 - [SLM](slm)
-
+- [AOM & EOM](aom_eom)

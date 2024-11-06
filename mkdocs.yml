@@ -16,17 +16,16 @@ nav:
     - Data management: group-organization/data
   - Programming: programming
   - Instruments: 
-    - AFG: instruments/AFG
+    - AFG: instruments/afg
     - Camera: instruments/camera
     - Laser: instruments/laser
     - Motorized Stage: instruments/motorized-stage
     - Power Supply: instruments/power-supply
-    - Oscilloscope: instruments/scopes
+    - Oscilloscope: instruments/scope
     - SLM: instruments/slm
     - Spectrum Analyzer: instruments/spectrum-analyzer
-  - Publications:
-      - How to publish: publications/publications
-      - Templates: publications/Templates
+    - AOM & EOM: instruments/aom_eom
+  - Publications: publications
   - Labs: 
     - Rubidium: 
       - Introduction: labs/RubidiumLab/introduction
