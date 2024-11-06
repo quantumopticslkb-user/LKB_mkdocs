@@ -35,8 +35,8 @@ nav:
     - Nano: labs/NanoLab
     - Polariton: labs/PolaritonLab
   - About: about
-  - User Guide:
-    - Contributing to the doc: user-guide/doc_lkb_tuto
+  - Contribution:
+    - Write documentation tutorial: user-guide/doc_lkb_tuto
     - Markdown Reference: user-guide/demo
 theme:
   name: material
