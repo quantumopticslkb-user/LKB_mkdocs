@@ -23,6 +23,7 @@ jobs:
           git config --local user.email "actions@github.com"
           git add docs/awesome-list.md
           git commit -m "Update Awesome List"
-          git push
+          git pull --rebase origin main  # Pull latest changes with rebase
+          git push --force https://${{ secrets.PAT_TOKEN }}@github.com/quantumopticslkb-user/LKB_mkdocs.git HEAD:main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
