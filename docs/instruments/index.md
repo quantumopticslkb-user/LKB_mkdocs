@@ -9,4 +9,5 @@ description: 'A guide for the instruments'
 - [Power supply](powersupply)
 - [Motorized optomechanics](motorizedoptomechanics)
 - [Cameras](Cameras)
+- [SLM](slm)
 
