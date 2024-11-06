@@ -25,6 +25,7 @@ nav:
     - SLM: instruments/slm
     - Spectrum Analyzer: instruments/spectrum-analyzer
     - AOM & EOM: instruments/aom-eom
+    - Wavemeter: instruments/wavemeter
   - Publications: publications
   - Labs: 
     - Rubidium: 
