@@ -23,11 +23,16 @@ Used for communication inside the team and with other lkb members.
 
 ## Google groups and calendars
 
-You have to be added to the Google groups:
+This is the procedure to gain access to all the Google calendars with the Google group : 
 
-- eq15b@googlegroups.com and join the calendars
+- go to [groups.google.com/g/eq15b](groups.google.com/g/eq15b) once you have received the invite
+- go to "Conversations"
+- you will find all the messages containing the invite links to all of the calendars
 
-- if you are part of the Rb team: eq15b-rubidium@googlegroups.com
+Please, try to refrain using the quantumopticslkb@gmail.com account !
+This is a "quick and dirty" solution that has caused a lot of issues in the past since people were using it without realizing, messing up permissions / important organization stuff.
+
+- if you are part of the Rb team, also add: [eq15b-rubidium@googlegroups.com](eq15b-rubidium@googlegroups.com)
 
 ## Group github
 You have to share your codes [here](https://github.com/Quantum-Optics-LKB).

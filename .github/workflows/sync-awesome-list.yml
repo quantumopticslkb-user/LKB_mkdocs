@@ -23,8 +23,8 @@ jobs:
           git config --local user.name "GitHub Action"
           git config --local user.email "actions@github.com"
           git add docs/awesome-list/index.md
+          cat docs/awesome-list/index.md  # Debugging
           git commit -m "Update Awesome List"
-          git pull --rebase origin main  # Pull any updates from main
           git push origin main  # Push changes to main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

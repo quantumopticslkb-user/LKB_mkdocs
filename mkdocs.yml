@@ -7,10 +7,10 @@ nav:
   - Admin: 
     - IT Guide: admin/computers
     - Human ressources: admin/hr
-    - Passing Orders: admin/orders
+    - Orders and Missions: admin/orders
     - Go to Lunch: admin/restaurant
     - Keys & Rooms: admin/rooms
-    - Data: group-organization/data
+    - Data storage: group-organization/data
   - Group Organization: 
     - Essential Tools: group-organization/tools
     - Data management: group-organization/data
