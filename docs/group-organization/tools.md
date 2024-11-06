@@ -6,7 +6,7 @@ Used for communication inside the team and with other lkb members.
 
 - Get an account (ask the IT people)
 - Get the [desktop app](https://mattermost.com/apps/)
-- [Join the team server] and join the channels:
+- Join the team server (get the invite link from a team member) and join the channels:
 
     - ESSENTIALS
     - Bibliography
@@ -16,7 +16,7 @@ Used for communication inside the team and with other lkb members.
     - Rubidium or Polaritons or Nano
     - Off-topics
 
-- [Join the lkb-all server]
+- Join the lkb-all server (get the invite link from a team member)
 
 - Join the "Orders" board, to keep track of the orders. 
 
