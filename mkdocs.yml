@@ -17,7 +17,6 @@ nav:
     - Spectrum Analyzer: instruments/spectrum-analyzer
   - Publications: publications
   - Labs: 
-    - Utils: labs/utils
     - Rubidium: 
       - Introduction: labs/RubidiumLab/introduction
       - Lasers: labs/RubidiumLab/lasers
