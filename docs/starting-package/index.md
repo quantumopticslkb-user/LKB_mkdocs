@@ -21,17 +21,19 @@ Follow these steps (in order) and enjoy !!!
 ### Admin
 
 - Go to the admin office (13-23, 2nd floor) and introduce yourself !
-- Get a [key](/general/admin#obtain-a-kaba-key)
-- Get an email [here](/admin) : Go to the admin office and ask David
-- Ask for the IP/MAC address (Your computer identifier) of your computer to be [recorded on the network](/general/computers_and_network#adding-a-computer-to-the-network)
-- Check that you can join the [server LEON](/general/computers_and_network#map-a-network-drive-%EF%B8%8Fyou-need-a-lkb-email-account) (to be used for storing epxeimental data and simulation results): Only when you have an email address and open a ticket by [sending an email here](mailto:support@lkb.upmc.fr)
-- Install [VS Code](/general/tools#vs-code) and [Python (via Mambaforge)](/general/tools#python)
+- Get a [key](/admin/rooms/)
+- Get an email [here](/admin/) : Go to the admin office and ask David
+- Ask for the IP/MAC address (Your computer identifier) of your computer to be [recorded on the network](admin/computers/)
+- Check that you can join the [server LEON](admin/computers/) (to be used for storing epxeimental data and simulation results): Only when you have an email address and open a ticket by [sending an email here](mailto:support@lkb.upmc.fr)
+- Install [VS Code](/programming/) and [Python (via Mambaforge)](programming/)
 - (Optional: Set up the VPN)
+
 
     ### Food
 
 - To eat in the CROUS with the team you need to have a card. Go to room 13-23 203 and ask what to do.
 - To use the coffee machine you need to buy tickets in the office in front of the coffee room. (25c each)
+
 
     ### Human Resources
     
