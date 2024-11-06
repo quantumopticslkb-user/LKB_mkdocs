@@ -7,5 +7,5 @@ description: 'a toc ?'
 - [Food and Coffee](restaurant)
 - [Computers and network](computers)
 - [Data Storage](data)
-- [Orders and mission](orders)
+- [Orders and Missions](orders)
 - [Human Ressources](hr)
