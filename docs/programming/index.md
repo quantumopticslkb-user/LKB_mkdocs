@@ -206,15 +206,17 @@ Here's a basic tutorial for using ChatGPT effectively:
 
 2. **Review and Follow Up**: After receiving a response, read through it to see if it meets your needs. If you want more details, clarity, or a slightly different angle, ask a follow-up question or request a specific change, like “Can you add examples?” or “Summarize this in simpler terms.”
 
-3. **Use Iterative Refinement**: For complex tasks, such as drafting a report or solving a multi-step problem, build your query step-by-step. Start with a broad question, review the answer, and gradually add specific requirements, making ChatGPT a versatile assistant for various tasks.
-
 ### Good practices
 
-Par défaut chaque nouveau chat est accessible par les autres utilisateurs. Pour que
-When you open a new chat
+ Here's some advice on how to use this tool.
 
+- **Open a new chat**: By default, each new chat is open to everyone (side bar). To keep track, you can rename the title by adding your initials [MB]. If you prefer to remain anonymous, you can open an ephemeral chat, but it will not be saved when closed.
 
+- **Choose the model**: Depending on the task you want to perform, it is preferable to switch models. For example, for scientific use, you can select the Consensus model. This applies to everything, including code or image generation.
 
+- **Use Iterative Refinement**: For any conversation, such as discussing about an article, build your query step-by-step. Provide the litterature and start with a broad question, review the answer, and gradually add specific requirements.
+
+- **Don't trust everything**: Always double check the answer. This tool is only here to give us a lead.
 
 ## Mkdocs
 
