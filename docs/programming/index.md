@@ -8,7 +8,11 @@ Links to tutorials: '
 ---
 Learn the basics for programming tools.
 ---
-Here are the programming tools that are commonly (mandatory) used in the team.
+Here's an introduction for the programming section:
+
+---
+
+Welcome to the programming section! This guide is designed to provide essential resources, tutorials, and best practices for using the programming tools commonly utilized by our team. Here, you’ll find information on configuring your environment, connecting to key services, managing code with GitHub, and more. Each tool and tutorial is crafted to ensure that you can get up and running quickly and with confidence. Be sure to explore the sections below, which cover topics such as setting up VS Code, using SSH for secure connections, integrating GitHub for collaborative work, and mastering Python for lab and research applications. 
 
 ## VS Code
 
@@ -161,18 +165,24 @@ You can install python throught [Conda-forge](https://conda-forge.org/) or if yo
 
 Unless you need specific installs for a project and you *know exactly what you are doing*, this is the safest most complete Python install. 
 
-- **Linux**, it is more than recommanded to add the Python version of conda/mamba to your `PATH` by running `conda init` at the end of the install (explained in the installer's messages). Once this is done, you should see an additional `(base)` in your command shell :
-```bash
-(base) user@computer:~$
-```
-This indicates that the `base` conda environment is activated.
+=== "Linux"
 
-- **Windows** handle very differently Python installs, and you should not try to mess with it. Just do whatever the installer tells you to do.
-You should then use "Anaconda prompt" if you need to install stuff with `pip` or `conda`.
-But if you need to sepcify the PATH you can enter `env` in windows search. Then `environment variable`, select `PATH` and modify and add the adress of your anaconda installation like `C:\Users\[user_name]\anaconda3\Scripts`.
-    
-- **Mac**, it's your problem cowboy !
-The following packages are used widely in the group and you should install them as well through `pip` : `opencv-python` (imports as `cv2`): `pyfftw`, `cupy` (see CUDA section below), `scikit-image`, `pyvisa` (for VISA communication with scopes and other instruments), `pythonnet` (.NET interface)
+    it is more than recommanded to add the Python version of conda/mamba to your `PATH` by running `conda init` at the end of the install (explained in the installer's messages). Once this is done, you should see an additional `(base)` in your command shell :
+    ```bash
+    (base) user@computer:~$
+    ```
+    This indicates that the `base` conda environment is activated.
+
+=== "Windows"
+
+    handle very differently Python installs, and you should not try to mess with it. Just do whatever the installer tells you to do.
+    You should then use "Anaconda prompt" if you need to install stuff with `pip` or `conda`.
+    But if you need to sepcify the PATH you can enter `env` in windows search. Then `environment variable`, select `PATH` and modify and add the adress of your anaconda installation like `C:\Users\[user_name]\anaconda3\Scripts`.
+
+=== "Mac"
+
+    It's your problem cowboy !
+    The following packages are used widely in the group and you should install them as well through `pip` : `opencv-python` (imports as `cv2`), `pyfftw`, `cupy` (see CUDA section below), `scikit-image`, `pyvisa` (for VISA communication with scopes and other instruments), `pythonnet` (.NET interface)
 
 ### Create and change environement
 
