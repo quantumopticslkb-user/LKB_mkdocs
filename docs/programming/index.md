@@ -196,24 +196,25 @@ Welcome to the QuantumOptics documentation portal, designed to offer precise and
 
 ### Group account
 
-You can acces the group chatgpt account with the login and password provided in the pinned message on the Daily Chatting channel on mattermost.
-
-### Good practices
-
-When you open a new chat
-
+You can acces the group account with the login/password provided in the pinned message in the Daily Chatting channel on mattermost.
 
 ### How to Use ChatGPT:
 
-1. **General Questions:** Ask ChatGPT for explanations on broad quantum optics concepts, technical details, or practical examples.
-2. **Advanced Assistance:** For specific information (such as exact sections or calculations), ChatGPT can point you directly to the relevant documentation section or provide in-depth explanations.
-3. **Interactive Guidance:** Use ChatGPT to get best practice suggestions, concept overviews, or links to complementary articles—all within the context of your inquiry.
+Here's a basic tutorial for using ChatGPT effectively:
 
-Try ChatGPT now to simplify your journey through the documentation and deepen your understanding of quantum optics.
+1. **Ask a Question or Give a Task**: Start by typing a question or a command in plain language, such as "Explain photosynthesis" or "Help me write an email." ChatGPT responds to natural language, so you don’t need to use special commands or syntax.
 
----
+2. **Review and Follow Up**: After receiving a response, read through it to see if it meets your needs. If you want more details, clarity, or a slightly different angle, ask a follow-up question or request a specific change, like “Can you add examples?” or “Summarize this in simpler terms.”
 
-For any issues accessing ChatGPT, please refer to the Mattermost channel for updated login credentials.
+3. **Use Iterative Refinement**: For complex tasks, such as drafting a report or solving a multi-step problem, build your query step-by-step. Start with a broad question, review the answer, and gradually add specific requirements, making ChatGPT a versatile assistant for various tasks.
+
+### Good practices
+
+Par défaut chaque nouveau chat est accessible par les autres utilisateurs. Pour que
+When you open a new chat
+
+
+
 
 ## Mkdocs
 
