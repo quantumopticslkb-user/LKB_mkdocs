@@ -1,7 +1,7 @@
 name: Sync Awesome List
 on:
   schedule:
-    - cron: '* * * * 1'  # Adjust as needed
+    - cron: '* * * * 0'  # Adjust as needed
   workflow_dispatch:
 
 jobs:
@@ -16,14 +16,14 @@ jobs:
           mkdir -p docs/awesome-list  # Ensure the directory exists
           curl -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
                -o docs/awesome-list/index.md \
-               https://raw.githubusercontent.com/Quantum-Optics-LKB/AwesomeList/main/awesome-list.md
+               https://raw.githubusercontent.com/Quantum-Optics-LKB/AwesomeList/refs/heads/main/README.md
 
       - name: Commit and Push Changes to Main Branch
         run: |
           git config --local user.name "GitHub Action"
           git config --local user.email "actions@github.com"
           git add docs/awesome-list/index.md
-          git commit -m "Update Awesome List Action"
+          git commit -m "Update Awesome List"
           git pull --rebase origin main  # Pull any updates from main
           git push origin main  # Push changes to main
         env:
