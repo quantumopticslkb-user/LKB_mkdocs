@@ -40,8 +40,8 @@ These are first steps when you arrive. The following sections outline everything
 
 ### Learn about how to deal with Human Resources issues
     
-- For vacations : [see this link](admin/hr/)
-- For telework/remote : [see this link](admin/hr/)
+- For vacations : [see this link](/admin/hr/)
+- For telework/remote : [see this link](/admin/hr/)
 
 
 
