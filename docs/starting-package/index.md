@@ -21,7 +21,7 @@ These are first steps when you arrive. The following sections outline everything
 - Get a [key](/admin/rooms/)
 - Get an email [here](/admin/) : Go to the admin office and ask David
 - Ask for the MAC address (Your computer identifier) of your computer to be [recorded on the network](admin/computers/)
-- Check that you can join the [server LEON](admin/computers/) (to be used for storing epxeimental data and simulation results): Only when you have an email address and open a ticket by [sending an email here](mailto:support@lkb.upmc.fr)
+- Check that you can join the [server LEON](admin/computers/) (to be used for storing experimental data and simulation results): Only when you have an email address and open a ticket by [sending an email here](mailto:support@lkb.upmc.fr)
 
 
 
@@ -40,8 +40,8 @@ These are first steps when you arrive. The following sections outline everything
 
 ### Learn about how to deal with Human Resources issues
     
-- For vacations : [see this link](/general/admin#go-on-vacation)
-- For telework/remote : [see this link](/general/admin#telework)
+- For vacations : [see this link](admin/hr/)
+- For telework/remote : [see this link](admin/hr/)
 
 
 
@@ -49,12 +49,12 @@ These are first steps when you arrive. The following sections outline everything
 !!! note 
     This means you **must** create your accounts and log in to all this (be sure to make it work **NOW**). 
 
-- [Join](/general/tools#mattermost) LKB-mattermost and Quantum-mattermost (and the channels inside)
+- [Join](group-organization/tools/) LKB-mattermost and Quantum-mattermost (and the channels inside)
 - Be sure to have access to all the group calendars.
-- Create a GitHub account, join the [Group github](https://github.com/Quantum-Optics-LKB ) and [learn how to use it](/general/tools#github).
+- Create a GitHub account, join the [Group github](https://github.com/Quantum-Optics-LKB ) and [learn how to use it](group-organization/tools/).
     * Check that you have push access on the group github.
-- Join the [group calendar](/general/tools#google-calendar)
-- Create a [Zotero account](/general/tools#zotero) and join the [group library](https://www.zotero.org/groups/4622968/quantumopticslkb)
+- Join the [group calendar](group-organization/tools/)
+- Create a [Zotero account](group-organization/tools/) and join the [group library](https://www.zotero.org/groups/4622968/quantumopticslkb)
 - Create an Overleaf account
 
 ## So you are ready for more. Check out the...
