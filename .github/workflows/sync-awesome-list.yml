@@ -21,9 +21,10 @@ jobs:
         run: |
           git config --local user.name "GitHub Action"
           git config --local user.email "actions@github.com"
-          git checkout -B awesome-list-sync  # Create or reset to sync branch
+          git checkout -B awesome-list-sync  # Switch to or create the sync branch
           git add docs/awesome-list.md
           git commit -m "Update Awesome List"
+          git pull --rebase origin awesome-list-sync  # Ensure it's up to date
           git push -u origin awesome-list-sync --force
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
