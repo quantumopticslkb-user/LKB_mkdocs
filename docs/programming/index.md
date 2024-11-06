@@ -194,17 +194,20 @@ This guide is authored to help you navigate and utilize ChatGPT within the Quant
 
 Welcome to the QuantumOptics documentation portal, designed to offer precise and practical information on quantum optics. To enhance your experience, we've integrated the ChatGPT assistant, an intelligent tool that guides you through the documentation.
 
+### Group account
+
+You can acces the group chatgpt account with the login and password provided in the pinned message on the Daily Chatting channel on mattermost.
+
+### Good practices
+
+When you open a new chat
+
+
 ### How to Use ChatGPT:
 
 1. **General Questions:** Ask ChatGPT for explanations on broad quantum optics concepts, technical details, or practical examples.
 2. **Advanced Assistance:** For specific information (such as exact sections or calculations), ChatGPT can point you directly to the relevant documentation section or provide in-depth explanations.
 3. **Interactive Guidance:** Use ChatGPT to get best practice suggestions, concept overviews, or links to complementary articles—all within the context of your inquiry.
-
-### Why Use ChatGPT?
-
-- **Speed and Precision:** Get quick, accurate answers tailored to your research needs.
-- **Accessibility:** Save time by locating documentation sections more efficiently.
-- **Personalized Assistance:** Enjoy contextualized responses that match your knowledge level and study goals.
 
 Try ChatGPT now to simplify your journey through the documentation and deepen your understanding of quantum optics.
 
