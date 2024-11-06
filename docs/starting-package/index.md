@@ -18,6 +18,13 @@ These are first steps when you arrive. The following sections outline everything
 ### Do the administrative stuff
 
 - Go to the admin office (13-23, 2nd floor) and introduce yourself !
+- Get a [key](/admin/rooms/)
+- Get an email [here](/admin/) : Go to the admin office and ask David
+- Ask for the IP/MAC address (Your computer identifier) of your computer to be [recorded on the network](admin/computers/)
+- Check that you can join the [server LEON](admin/computers/) (to be used for storing epxeimental data and simulation results): Only when you have an email address and open a ticket by [sending an email here](mailto:support@lkb.upmc.fr)
+- Install [VS Code](/programming/) and [Python (via Mambaforge)](programming/)
+- (Optional: Set up the VPN)
+
 - Get a [key](/general/admin#obtain-a-kaba-key)
 - Get an email [here](/admin) : Go to the admin office and ask David
 - Ask for the IP/MAC address (Your computer identifier) of your computer to be [recorded on the network](/general/computers_and_network#adding-a-computer-to-the-network)
@@ -33,6 +40,7 @@ These are first steps when you arrive. The following sections outline everything
 
 - To eat in the CROUS with the team you need to have a card. Go to room 13-23 203 (Secretariat) and ask the procedure. Only them could help you.
 - Coffee are free (or paid by the lab), you just have to mark what you drink.
+
 
 ### Learn about how to deal with Human Resources issues
     
