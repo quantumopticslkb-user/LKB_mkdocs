@@ -3,7 +3,7 @@ title: Lasers
 description: 'A guide for the lasers'
 category: Tutorials
 ---
-# Rubdium lasers
+# Rubdium lasers & TAs (Tapered Amplifiers)
 
 ## List
 ### Precilaser
@@ -26,7 +26,7 @@ category: Tutorials
 - Cervin : 50mW -cold
 
 
-### Muquans
+### μ-quans
 - Shakdag : 1W @ 780
 - Kapaz : 1W @ 780
 
@@ -54,6 +54,10 @@ The code to turn off the amplifier is:
  sml780_tool edfa_shutdown
  ```   
   </code-block>
+
+### TAs (Tapered AMplifiers); aka MOPA (Master Oscillator Power Amplifier)
+#### Cold Lab - DA BEAST MOT: 
+- TA control [driver](https://www.teamwavelength.com/download/Datasheets/lfi4500.pdf). Wavelength Electronics: LFI-4532 3.25 Amp Laser Diode Driver. Default current limit: 250 mA for LFI-4532.
 
 ## Usage
 | Laser         | Main characteristics                      | Usage                 |
