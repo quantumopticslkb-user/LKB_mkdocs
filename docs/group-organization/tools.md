@@ -4,7 +4,7 @@ Here are all the communication and sharing tools used by the team.
 ## Mattermost
 Used for communication inside the team and with other lkb members.
 
-- Get an account (ask the IT people)
+- Get an LKB account (ask the IT people)
 - Get the [desktop app](https://mattermost.com/apps/)
 - Join the team server (get the invite link from a team member) and join the channels:
 
