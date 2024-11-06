@@ -1,0 +1,30 @@
+name: Sync Awesome List
+on:
+  schedule:
+    - cron: '* * * * 1'  # Adjust as needed
+  workflow_dispatch:
+
+jobs:
+  sync-awesome-list:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout MkDocs repo
+        uses: actions/checkout@v2
+
+      - name: Fetch Awesome List
+        run: |
+          mkdir -p docs/awesome-list  # Ensure the directory exists
+          curl -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+               -o docs/awesome-list/index.md \
+               https://raw.githubusercontent.com/Quantum-Optics-LKB/AwesomeList/main/awesome-list.md
+
+      - name: Commit and Push Changes to Main Branch
+        run: |
+          git config --local user.name "GitHub Action"
+          git config --local user.email "actions@github.com"
+          git add docs/awesome-list/index.md
+          git commit -m "Update Awesome List Action"
+          git pull --rebase origin main  # Pull any updates from main
+          git push origin main  # Push changes to main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

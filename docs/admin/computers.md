@@ -78,29 +78,6 @@ VPN allows to acces the lab network from anywhere. To get an access, download Op
 !!! question "Why do I need a VPN actually ?"
     Good question. You need a VPN to access the lab network from outside. This is useful to access the shared drives on LEON, the server for computation Hawking or the publications behind paywalls.
 
-
-## Inventory (to move)
-
-### LKB network
-
-- Printers
-
-  | Name | IP | Where |
-  | ------ | ---- | ------- |
-
-### Hardware
-
-
-| Name                      | IP          | MAC |
-| --------------------------- | ------------- | ----- |
-| Routeur (Netgear FVS318N) | 192.168.1.1 | --- |
-
-### Computers
-
-
-| Computer | IP | User | OS | MAC |
-| ---------- | ---- | ------ | ---- | ----- |
-
 ## Passwords
 
 Of  course not here ! Ask Quentin
