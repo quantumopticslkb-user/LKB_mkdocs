@@ -24,7 +24,9 @@ nav:
     - Oscilloscope: instruments/scopes
     - SLM: instruments/slm
     - Spectrum Analyzer: instruments/spectrum-analyzer
-  - Publications: publications
+  - Publications:
+      - How to publish: publications/publications
+      - Templates: publications/Templates
   - Labs: 
     - Rubidium: 
       - Introduction: labs/RubidiumLab/introduction

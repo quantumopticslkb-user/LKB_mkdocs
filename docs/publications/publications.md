@@ -1,5 +1,5 @@
 ---
-title: Publications
+title: How to publish
 description: 'How to write a paper and where to publish it ?'
 category: Tutorials
 ---
