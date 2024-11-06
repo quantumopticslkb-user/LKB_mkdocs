@@ -18,14 +18,13 @@ jobs:
                -o docs/awesome-list/index.md \
                https://raw.githubusercontent.com/Quantum-Optics-LKB/AwesomeList/main/awesome-list.md
 
-      - name: Commit and Push Changes to Sync Branch
+      - name: Commit and Push Changes to Main Branch
         run: |
           git config --local user.name "GitHub Action"
           git config --local user.email "actions@github.com"
-          git checkout -B awesome-list-sync  # Switch to or create the sync branch
           git add docs/awesome-list/index.md
-          git commit -m "Update Awesome List"
-          git pull --rebase origin awesome-list-sync  # Ensure it's up to date
-          git push -u origin awesome-list-sync --force
+          git commit -m "Update Awesome List Action"
+          git pull --rebase origin main  # Pull any updates from main
+          git push origin main  # Push changes to main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
