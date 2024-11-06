@@ -4,8 +4,16 @@ nav:
   - Home: index.md
   - Starting Package: starting-package
   - Awesome List: awesome-list
-  - Admin: admin
-  - Group Organization: group-organization
+  - Admin: 
+    - IT Guide: admin/computers
+    - Human ressources: admin/hr
+    - Passing Orders: admin/orders
+    - Go to Lunch: admin/restaurant
+    - Keys & Rooms: admin/rooms
+    - Data: group-organization/data
+  - Group Organization: 
+    - Essential Tools: group-organization/tools
+    - Data management: group-organization/data
   - Programming: programming
   - Instruments: 
     - AFG: instruments/AFG
@@ -18,7 +26,6 @@ nav:
     - Spectrum Analyzer: instruments/spectrum-analyzer
   - Publications: publications
   - Labs: 
-    - Utils: labs/utils
     - Rubidium: 
       - Introduction: labs/RubidiumLab/introduction
       - Lasers: labs/RubidiumLab/lasers
@@ -29,7 +36,7 @@ nav:
     - Polariton: labs/PolaritonLab
   - About: about
   - User Guide:
-    - Writing your docs: user-guide/doc_lkb_tuto
+    - Contributing to the doc: user-guide/doc_lkb_tuto
     - Markdown Reference: user-guide/demo
 theme:
   name: material

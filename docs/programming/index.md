@@ -19,32 +19,33 @@ When connecting to a remote server that has your public key, your identity is ve
 can unlock your public key. Keeping your private key secure is crucial, as anyone with access to your private key can impersonate you and 
 access servers that have your public key.
 
-## Key generation
+### Key generation
 
 In order to use SSH authentication, you need SSH keys. In this section of the tutorial, we will show you how to generate SSH keys on Windows, Mac, and Linux.
 
 ??? Windows
 
-  If you are using Windows 10, you will need to install the OpenSSH client before continuing with the following steps.
-  - Go to **Setting** > **Apps** > **Optional Features**.
-  - Click on **Add a feature**.
-  - Search for OpenSSH client and install it.
-  - Note: Windows 11 has the OpenSSH client installed by default.
+    If you are using Windows 10, you will need to install the OpenSSH client before continuing with the following steps.
+    - Go to **Setting** > **Apps** > **Optional Features**.
+    - Click on **Add a feature**.
+    - Search for OpenSSH client and install it.
+    - Note: Windows 11 has the OpenSSH client installed by default.
 
   
 ??? Linux
 
-  If you are using Linux, ssh is probably already installed. You can check by running
-  - ```$ ssh -v
-  usage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface] [-b bind_address]
-           [-c cipher_spec] [-D [bind_address:]port] [-E log_file]
-           [-e escape_char] [-F configfile] [-I pkcs11] [-i identity_file]
-           [-J destination] [-L address] [-l login_name] [-m mac_spec]
-           [-O ctl_cmd] [-o option] [-P tag] [-p port] [-R address]
-           [-S ctl_path] [-W host:port] [-w local_tun[:remote_tun]]
-           destination [command [argument ...]]
-       ssh [-Q query_option]
-  ```
+    If you are using Linux, ssh is probably already installed. You can check by running
+    - ```
+    $ ssh -v
+    usage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface] [-b bind_address]
+             [-c cipher_spec] [-D [bind_address:]port] [-E log_file]
+             [-e escape_char] [-F configfile] [-I pkcs11] [-i identity_file]
+             [-J destination] [-L address] [-l login_name] [-m mac_spec]
+             [-O ctl_cmd] [-o option] [-P tag] [-p port] [-R address]
+             [-S ctl_path] [-W host:port] [-w local_tun[:remote_tun]]
+             destination [command [argument ...]]
+         ssh [-Q query_option]
+    ```
 
   If it's not, you need to install it using your distribution package manager, refer to your distribution documentation for more information
 
@@ -63,7 +64,8 @@ You will be asked to re-enter your passphrase. Do so and press Enter.
 - `Enter same passphrase again:`
 
 You will see output similar to this, indicating that your SSH keys have been generated.
-- ```Your identification has been saved in /home/<username>/.ssh/id_rsa
+- ```
+Your identification has been saved in /home/<username>/.ssh/id_rsa
  Your public key has been saved in /home/<username>/.ssh/id_rsa.pub
  The key fingerprint is:
  SHA256:YwOXM1rI+idGlqftABaj7gRtvV9rwWcXGm21NeFSVXw <username>@<hostname>
@@ -209,3 +211,24 @@ Try ChatGPT now to simplify your journey through the documentation and deepen yo
 ---
 
 For any issues accessing ChatGPT, please refer to the Mattermost channel for updated login credentials.
+
+## Mkdocs
+
+For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+
+### Commands
+
+* `mkdocs new [dir-name]` - Create a new project.
+* `mkdocs serve` - Start the live-reloading docs server.
+* `mkdocs build` - Build the documentation site.
+* `mkdocs -h` - Print help message and exit.
+
+### Project layout
+
+    mkdocs.yml    # The configuration file.
+    docs/
+        index.md  # The documentation homepage.
+        ...       # Other markdown pages, images and other files.
+
+
+

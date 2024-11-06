@@ -2,6 +2,11 @@
 title: Write documentation tutorial
 description: 'Instructions to learn how to write a documentation file and share it to the whole team.'
 ---
+!!! info
+    This site is done using the markdown language. It is a simple language that allows you to write text and add some formatting to it.
+    It is compiled with the mkdocs package and the documentation is hosted on github. For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+    Then everytime you push your changes on the github repository, the website is updated automatically (using Netlify build command).
+
 ### Step 0: Git installation on your computer
 
 Linux based systems :
