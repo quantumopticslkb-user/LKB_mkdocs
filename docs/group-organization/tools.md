@@ -18,13 +18,28 @@ Used for communication inside the team and with other lkb members.
 
 - [Join the lkb-all server]
 
-- Join the "Orders" board,to kepp tracks of the orders. 
+- Join the "Orders" board, to keep track of the orders. 
 
 
 ## Google groups and calendars
 
-You have to be added to the Google groups
+You have to be added to the Google groups:
+
 - eq15b@googlegroups.com and join the calendars
+
 - if you are part of the Rb team: eq15b-rubidium@googlegroups.com
+
+## Group github
+You have to share your codes [here](https://github.com/Quantum-Optics-LKB).
+
+
+## RbLab_Organisation repository
+
+(Private) github [repository](https://github.com/Quantum-Optics-LKB/RbLab_Organisation) to keep tracks of the Rb team meetings, ideas, roadmaps...
+
+## Zotero 
+Access the group bibliography here. <br>
+To know more about Zotero, go [there](/publications).
+
 
 

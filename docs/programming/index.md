@@ -13,16 +13,82 @@ Here are the programming tools that are commonly (mandatory) used in the team.
 
 ## SSH
 
-SSH ([ssh : Linux](https://www.ssh.com/academy/ssh/command) and 
-[ssh : Windows](https://www.putty.org/)) is a protocol that computers use to communicate with one another. This is the protocol that you will use to connect to the shared server **LEON**  / shared folder **EQ15B**. \
-The easiest way to use ssh is to setup a passwordless connection by setting up an RSA ssh key. This is easily done following [this](https://www.ssh.com/academy/ssh/copy-id) tutorial. \
-On Linux, you might not even need or want a passwordless setup as you can just "ssh" to **EQ15B** from "Other locations" tab in the file explorer by entering `ssh://login@patriot.lkb.upmc.fr/partages/EQ15B/LEON-15B` in the orange rectangle below:
+The Secure SHell (SSH) protocol is used to securely access remote servers using a public key and private key. 
+The public key acts like a lock–anyone can see it–but only the holder of that corresponding private key and unlock it.
+When connecting to a remote server that has your public key, your identity is verified by checking if your private key (which only you should have) 
+can unlock your public key. Keeping your private key secure is crucial, as anyone with access to your private key can impersonate you and 
+access servers that have your public key.
 
-![nautilus_ssh](nautilus_ssh.png)
+### Key generation
 
-On Windows, you can install `sshfs-win` and `Winfsp` following [this](http://makerlab.cs.hku.hk/index.php/en/mapping-network-drive-over-ssh-in-windows) tutorial to mount the drive in your file explorer.\
-<alert type="warning">**ONLY PATRIOT IS ACCESSIBLE ON THE OUTSIDE**</alert>\
-So if you want to have access wherever, mount Patriot and not Leon.
+In order to use SSH authentication, you need SSH keys. In this section of the tutorial, we will show you how to generate SSH keys on Windows, Mac, and Linux.
+
+??? Windows
+
+    If you are using Windows 10, you will need to install the OpenSSH client before continuing with the following steps.
+    - Go to **Setting** > **Apps** > **Optional Features**.
+    - Click on **Add a feature**.
+    - Search for OpenSSH client and install it.
+    - Note: Windows 11 has the OpenSSH client installed by default.
+
+  
+??? Linux
+
+    If you are using Linux, ssh is probably already installed. You can check by running
+    - ```
+    $ ssh -v
+    usage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface] [-b bind_address]
+             [-c cipher_spec] [-D [bind_address:]port] [-E log_file]
+             [-e escape_char] [-F configfile] [-I pkcs11] [-i identity_file]
+             [-J destination] [-L address] [-l login_name] [-m mac_spec]
+             [-O ctl_cmd] [-o option] [-P tag] [-p port] [-R address]
+             [-S ctl_path] [-W host:port] [-w local_tun[:remote_tun]]
+             destination [command [argument ...]]
+         ssh [-Q query_option]
+    ```
+
+  If it's not, you need to install it using your distribution package manager, refer to your distribution documentation for more information
+
+
+Generate the keys
+- Run `ssh-keygen -t ed25519 -C "email@example.com"`
+
+You will be prompted for a filename/location to save your keys. Press Enter to select the default.
+- `$ ssh-keygen -t ed25519 Generating public/private rsa key pair. Enter file in which to save the key (/home/<username>/.ssh/id_rsa): `
+
+You will be prompted to create a passphrase for your SSH keys. Make sure you remember this passphrase, as you will need it each time you use your SSH key.
+The password you type won't be shown on the terminal, but don't fret it will still be recorded
+- `Enter passphrase (empty for no passphrase):`
+
+You will be asked to re-enter your passphrase. Do so and press Enter.
+- `Enter same passphrase again:`
+
+You will see output similar to this, indicating that your SSH keys have been generated.
+- ```
+Your identification has been saved in /home/<username>/.ssh/id_rsa
+ Your public key has been saved in /home/<username>/.ssh/id_rsa.pub
+ The key fingerprint is:
+ SHA256:YwOXM1rI+idGlqftABaj7gRtvV9rwWcXGm21NeFSVXw <username>@<hostname>
+ The key's randomart image is:
+ +---[RSA 3072]----+
+ |               +*|
+ |     . . .    +.E|
+ |    o + *  . o +o|
+ | . o + * o. + o  |
+ |. + = =.S  + .   |
+ | + . * =oo+ .    |
+ |  o . * ++ .     |
+ | o   o *..       |
+ |  .   ..o        |
+ +----[SHA256]-----+
+```
+
+We want to access Léon, which is the server used to store your experiment data. We need to share our public key (aka the shared lock) with it :
+- `ssh-copy-id -i "path/to/key.pub" username@patriot.lkb.upmc.fr`
+
+Finally, you can connect to the remote server
+- `ssh username@patriot.lkb.upmc.fr`
+
 
 ## Github
 [Github](https://github.com/) will be our best friend for code managing. Here everybody in the team share their code and get feedback from others. Also it will allows you to save your code and have backup (just in case).\
@@ -120,8 +186,8 @@ And you can add extensions to help you. Here a list of mandatory extensions :
 
 Most of these extensions do not need any settings, but if you wish to, you can access those in the "Extensions" tab on the left of VS Code.\
 
-## ChatGPT - An Assistant for QuantumOptics Documentation
-
+## ChatGPT
+- An Assistant for QuantumOptics Documentation
 This guide is authored to help you navigate and utilize ChatGPT within the QuantumOptics documentation effectively. If you need access, please find the login credentials on the team's Mattermost channel.
 
 ---
