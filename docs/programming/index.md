@@ -129,7 +129,10 @@ You can then check that everything went well by looking at the timeline pane :
 
 ## Python
 
-The most used language in the team. Mandatory to interface with the lab's equipment. \
+The most used language in the team. Mandatory to interface with the lab's equipment.
+
+### Installation advice
+
 You can install python throught [Conda-forge](https://conda-forge.org/) or if you are a nerd [MAMBAFORGE](https://mamba.readthedocs.io/en/latest/installation/mamba-installation.html).
 
 Unless you need specific installs for a project and you *know exactly what you are doing*, this is the safest most complete Python install. 
@@ -140,21 +143,12 @@ Unless you need specific installs for a project and you *know exactly what you a
 ```
 This indicates that the `base` conda environment is activated.
 
-- **Windows**, this last step is **discouraged** ! Windows handle very differently Python installs, and you should not try to mess with it. Just do whatever the installer tells you to do.
+- **Windows** handle very differently Python installs, and you should not try to mess with it. Just do whatever the installer tells you to do.
 You should then use "Anaconda prompt" if you need to install stuff with `pip` or `conda`.
 But if you need to sepcify the PATH you can enter `env` in windows search. Then `environment variable`, select `PATH` and modify and add the adress of your anaconda installation like `C:\Users\[user_name]\anaconda3\Scripts`.
     
 - **Mac**, it's your problem cowboy !
 The following packages are used widely in the group and you should install them as well through `pip` : `opencv-python` (imports as `cv2`): `pyfftw`, `cupy` (see CUDA section below), `scikit-image`, `pyvisa` (for VISA communication with scopes and other instruments), `pythonnet` (.NET interface)
-
-
-## VS Code
-
-[VSCode](https://code.visualstudio.com/): the world's most used code editor : not for nothing. In this editor you will be able to run any language you want but also write your papers in Latex or your lab book in Markdown. 
-
-### Link your github account
-
-Vscode allows you to link vscode to your github account in order to commit your repository. You can follow the tuto for [github in vscode](https://code.visualstudio.com/docs/sourcecontrol/github)
 
 ### Create and change environement
 
@@ -168,6 +162,15 @@ and the environement:
 conda activate <env-name>
 ```
 Don't forget that the packages you've installed on one environment aren't necessarily on the one you've created. 
+
+
+## VS Code
+
+[VSCode](https://code.visualstudio.com/): the world's most used code editor : not for nothing. In this editor you will be able to run any language you want but also write your papers in Latex or your lab book in Markdown. 
+
+### Link your github account
+
+Vscode allows you to link vscode to your github account in order to commit your repository. You can follow the tuto for [github in vscode](https://code.visualstudio.com/docs/sourcecontrol/github)
 
 
 ### Extensions
