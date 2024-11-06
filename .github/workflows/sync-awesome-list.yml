@@ -1,7 +1,7 @@
 name: Sync Awesome List
 on:
   schedule:
-    - cron: '*/2 * * * *'  # Runs every 2 minutes
+    - cron: '*/2 * * * *'  # Adjust as needed
   workflow_dispatch:
 
 jobs:
@@ -13,8 +13,9 @@ jobs:
 
       - name: Fetch Awesome List
         run: |
-          curl -H "Authorization: token ${{ secrets.PAT_TOKEN }}" \
-               -o docs/awesome-list.md \
+          mkdir -p docs/awesome-list  # Ensure the directory exists
+          curl -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+               -o docs/awesome-list/index.md \
                https://raw.githubusercontent.com/Quantum-Optics-LKB/AwesomeList/main/awesome-list.md
 
       - name: Commit and Push Changes to Sync Branch
@@ -22,7 +23,7 @@ jobs:
           git config --local user.name "GitHub Action"
           git config --local user.email "actions@github.com"
           git checkout -B awesome-list-sync  # Switch to or create the sync branch
-          git add docs/awesome-list.md
+          git add docs/awesome-list/index.md
           git commit -m "Update Awesome List"
           git pull --rebase origin awesome-list-sync  # Ensure it's up to date
           git push -u origin awesome-list-sync --force
