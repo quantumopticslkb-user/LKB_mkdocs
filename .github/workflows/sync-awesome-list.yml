@@ -1,7 +1,7 @@
 name: Sync Awesome List
 on:
   schedule:
-    - cron: '*/2 * * * *'  # Adjust as needed
+    - cron: '* * * * 1'  # Adjust as needed
   workflow_dispatch:
 
 jobs:
