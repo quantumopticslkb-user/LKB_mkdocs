@@ -7,17 +7,15 @@ category: Tutorials
 
 ## List
 ### Precilaser
-
-#### Warm vapors
-- Whitney: FL-SF-780-2-CW (FECL)
-- Logan: FL-SF-795-2-CW (DFB)
-- Makalu: FL-SF-780-5-CW (DFB) 
-- Anapurna: FL-SF-780-5-CW (DFB ?)
-
-#### MistiQ-Light
-- Denali: FL-SF-795-2-2-CW (FECL) - clara
-- K2: FL-SF-780-8-CW (FECL)
-
+All the laser docs are available on LEON at partages\EQ15B\Manuals and Data Sheets\Precilaser
+#### 780nm
+  - Nuptse: CW 2W (free)
+  - Aoraki: CW 5W (Myrann)
+  - Fuji: CW 5W (free)
+  - Everest: CW 8W (cold atoms)
+#### 795nm
+- Kosciusko: CW 2W (Myrann)
+- Toubkal 1 and 2: CW 2W
 
 ### Toptica
 - Kilimandjaro : 2W - clara
@@ -29,6 +27,16 @@ category: Tutorials
 ### μ-quans
 - Shakdag : 1W @ 780
 - Kapaz : 1W @ 780
+
+#### Warm vapors
+- Whitney: FL-SF-780-2-CW (FECL)
+- Logan: FL-SF-795-2-CW (DFB)
+- Makalu: FL-SF-780-5-CW (DFB) 
+- Anapurna: FL-SF-780-5-CW (DFB ?)
+
+#### MistiQ-Light
+- Denali: FL-SF-795-2-2-CW (FECL) - clara
+- K2: FL-SF-780-8-CW (FECL)
 
 The lasers are connected via an Ethernet cable to the computer network. They are identified with IP addresses and named them with mountain names:  
 - IP: 192.168.1.107 / Name: Shakhdag  / Port: 23
