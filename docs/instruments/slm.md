@@ -13,6 +13,9 @@ SLM and DMD
 
 ## Tuto DMD
 
+For more information you can visit Sebastien Popoff's website: [Wavefrontshaping](https://www.wavefrontshaping.net/tutorials)
+
+
 ## In the group
 
 
