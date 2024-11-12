@@ -3,7 +3,7 @@ title: Lasers
 description: 'A guide for the lasers'
 category: Tutorials
 ---
-## Rubidium lasers list
+## List
 ### Precilaser
 All the laser docs are available on LEON at `partages/EQ15B/Manuals` and `Data Sheets/Precilaser`
 #### 780nm
