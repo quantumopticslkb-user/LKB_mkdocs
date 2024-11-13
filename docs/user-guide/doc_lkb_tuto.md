@@ -57,6 +57,7 @@ Then install the mkdocs package inside the environnement
 
 ```python
 conda install mkdocs
+pip install -r requirements.txt
 ```
 Then use the following commands
 
