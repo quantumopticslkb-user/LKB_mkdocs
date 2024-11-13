@@ -69,9 +69,9 @@ Then use the following commands
 ### Step 4: Push to Github
 
  Once you're done with modifications you can commit the changes you made on the github repository of the team :
-- Click on the github icon
-- Enter the message that goes with your commitment (for instance "first commit *username*)").
-- Click on commit next to SOURCE CONTROL title.
+* Click on the github icon
+* Enter the message that goes with your commitment (for instance "first commit *username)")
+* Click on commit next to SOURCE CONTROL title.
 
 If it's the first time you use VSCode with your github account it may ask you to configure your git user.name and user.email. The following command lines should work for any OS :
 
@@ -82,12 +82,11 @@ git config --global user.name "FIRST_NAME LAST_NAME"
 git config --global user.email "MY_NAME@example.com"
 ```
 
+!!! note
+*The user.name and the user.email have to be identical to the user name and the email you used te create your github account.*
 
-*The user.name and the user.email don't have to be identical to the user name and the email you used te create your github account.*
 
-<alert type="success">
-If your commit was succesful, you should be able to see your file appear on the Github page of the team as well as on the doclkb page.
-</alert>
+If your commit was succesful, you should be able to see your file appear on the Github page of the team as well as on the doclkb page after 30 seconds.
 
 
 
