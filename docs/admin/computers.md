@@ -78,6 +78,32 @@ VPN allows to acces the lab network from anywhere. To get an access, download Op
 !!! question "Why do I need a VPN actually ?"
     Good question. You need a VPN to access the lab network from outside. This is useful to access the shared drives on LEON, the server for computation Hawking or the publications behind paywalls.
 
+## Network Architecture
+
+The network is configured as follows :
+
+```
+router
+    |--p1 <- LKB network (not managed by us)
+    |
+    |--p2 -> warm switch
+    |        192.168.0.x
+    |                 |--p2 -> switch 8 ports (bragg experiment)
+    |                 |--p3 -> switch 16 ports (1d experiment)
+    |                 |--p4 -> switch 24 ports (vortex experiment)
+    |                
+    |--p3 -> cold switch
+    |        192.168.1.x
+    |                 |--p2 -> switch 8 ports (table top)
+    |                 |--p3 -> switch 24 ports (table top)
+    |                 |--p4 -> switch 8 ports (near Hawking)
+    |                 
+    |--p4 -> disconnected
+    |
+    |--p5 -> muquans laser
+             10.0.2.x
+```
+
 ## Passwords
 
 Of  course not here ! Ask Quentin
