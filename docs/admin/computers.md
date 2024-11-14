@@ -84,9 +84,9 @@ The network is configured as follows :
 
 ```
 router
-    |--p1 <- LKB network (not managed by us)
+    |--p1 <- LKB network (not managed by us 134.157.6.1)
     |
-    |--p2 -> warm switch
+    |--p2 -> warm switch (134.157.7.74)
     |        192.168.0.x
     |                 |--p2 -> switch 8 ports (bragg experiment)
     |                 |--p3 -> switch 16 ports (1d experiment)
