@@ -17,6 +17,12 @@ To do an order there are two parts : getting a quote, and then filing out the or
 When you are shopping for a brand new item for your lab, you need to first check the sellers with whom we have a discount. Those include : **Thorlabs**, **Edmund Optics**, **RS Electronics** (and more but you need to check with the administrative office). For these companies, we usually have a client number to fill out in order to see the discounted prices at checkout.\
 Once you finish your basket, you need to **ask for a quote** and not try to finish the order like you would do for a personnal buy. There is usually a button somewhere at the end of the procedure, or you can directly contact the sales with an email. This is important because if you launch an order without first getting a quote, you may receive stuff that you will not be able to pay afterwards !
 
+!!! info
+    For Amazon orders, you need to send an email to the administration (for instance David) containing:<br>
+    - the URL of the item<br>
+    - the number of items<br>
+    - the NACRE code (see below)<br>
+
 ### Register in Mattermost
 Register your order in the group's [Mattermost Board](https://mattermost.lkb.upmc.fr/boards/team/pbzjndnyx7nefgruk14er9fcqy/b7rotd56x7frrmnua364i9en84a/vju4844q68bbgtbh5xcenksaezy). Please attach all the possible information in the post. 
 
