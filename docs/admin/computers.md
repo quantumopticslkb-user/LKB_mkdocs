@@ -47,29 +47,11 @@ The email must feature the info
 - Date of end of contract (for personnal portable computers only) :
 ```
 
-
-### How to map the LEON network drive ?
+### Storing data
 !!! warning
      You need a LKB email account
 
-#### **Windows**
-
-1.  Open a window in the file explorer > Tools
-2.  Server: **\\\134.157.6.6\eq15b**
-3.  login/password:
-
-#### **Mac OS**
-
-1. cmd+K from Finder
-2. `smb manip15b@134.157.6.6/eq15b`
-3. password:
-
-#### **Linux**
-
-1. Open a window in the file explorer > Other locations
-2. In the bottom right adress bar type : `ssh://login@patriot.lkb.upmc.fr:/partages/EQ15B/LEON-15B`
-3. Password (don't forget to tick "Remember password")
-   See the following detailed explanation for [ssh](/StartingPackage/Tools#ssh)
+Use the lab data storage server (Léon) to store your data. The IP address is **134.157.6.6** and you can access it using [ssh](/programming/index.md) with your LKB account. The team stores everything under the **eq15b\\** directory.
 
 ### How to install the VPN ?
 
