@@ -36,7 +36,7 @@ To add a computer to the network, you need to open a ticket with the IT services
 
 The email must feature the info
 
-```text
+```
 - User last and first names :
 - Login (typically your lkb email address) :
 - Mac address of the device :
