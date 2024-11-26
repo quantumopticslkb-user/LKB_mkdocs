@@ -14,17 +14,23 @@ For your general IT issues contact the IT support (Adil Khalfa). To do so:
 
 Some tasks require a clear procedure (See below for details)
 
-### CNRS Account - Janus
-
-This account is created automatically when you have an LKB account. 
-You can then connect to [Janus authentification service](https://magelan.cnrs.fr/). It centralizes all the CNRS tools.
-
 
 ## How-to ?
 
 ### How to get an LKB email ?
 
 Present yourself to the administration board at room 13-23 203 to get your @lkb.upmc.fr email address! (Stéphanie or David can help you)
+
+!!! Note "Setting up LKB account on you personal email app"
+    You can set up your LKB email on your favorite app using these parameters: (**use the second column for Jussieu people**)
+
+![mail](/assets/img/admin/mail_param.png){ width=400 }
+
+### How to acces CNRS ressources (CNRS Account - Janus)
+
+The Janus account (also known as Magelan tool) centralizes all the CNRS ressources. This account is created automatically when you have an LKB account. 
+You can then connect to [Janus authentification service](https://magelan.cnrs.fr/).
+
 
 ### How to add computer to the network ?
 
@@ -52,6 +58,7 @@ The email must feature the info
      You need a LKB email account
 
 Use the lab data storage server (Léon) to store your data. The IP address is **134.157.6.6** and you can access it using [ssh](/programming/index.md) with your LKB account. The team stores everything under the **eq15b\\** directory.
+
 
 ### How to install the VPN ?
 
