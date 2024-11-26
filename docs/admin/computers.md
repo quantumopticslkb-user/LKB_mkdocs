@@ -26,6 +26,10 @@ Present yourself to the administration board at room 13-23 203 to get your @lkb.
 
 ![mail](/assets/img/admin/mail_param.png)
 
+!!! danger
+
+    Sometimes sending emails from Thunderbird fails due to an incompatibility in the TLS version. To fix this, use the Config Editor of Thunderbird to change the value of **security.tls.version.min** to 1.
+
 ### How to acces CNRS ressources (CNRS Account - Janus)
 
 The Janus account (also known as Magelan tool) centralizes all the CNRS ressources. This account is created automatically when you have an LKB account. 
