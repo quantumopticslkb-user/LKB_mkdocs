@@ -24,7 +24,7 @@ Present yourself to the administration board at room 13-23 203 to get your @lkb.
 !!! Note "Setting up LKB account on you personal email app"
     You can set up your LKB email on your favorite app using these parameters: (**use the second column for Jussieu people**)
 
-![mail](/assets/img/admin/mail_param.png){ width=400 }
+![mail](/assets/img/admin/mail_param.png)
 
 ### How to acces CNRS ressources (CNRS Account - Janus)
 
