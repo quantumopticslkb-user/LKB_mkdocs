@@ -4,6 +4,9 @@ description: 'A guide for the cameras'
 category: Tutorials
 ---
 
+All camera brands that we have in the group. <br>
+For Python control examples, click [here](https://github.com/Quantum-Optics-LKB/Cameras) .
+
 | Brand          | Model                 | Resolution | Pixel size (um) | Link to the official documentation                                                                                                                                                                                                                                                                                                                                                                          | Link to group made implementation |  Who is using it ? | How many ? |
 | :--------------- | ----------------------- | ------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- | ----------------------- |----------------------- |
 | Basler         | aca2040 - 90um NIR    |             | ?? | [PyViewer Gui Download page (for Windows and linux)](https://www.baslerweb.com/en/downloads/software-downloads/)<br />[Python SDK (Windows and linux)](https://github.com/basler/pypylon)<br />[PyViewer GUI installation guide for linux](https://www.forecr.io/blogs/connectivity/pylon-installation-for-basler-camera) (be careful, the *setup-usb.sh* file is located at */opt/pylon/share/pylon*)<br/> | https://github.com/Quantum-Optics-LKB/Feedback-loop/tree/main/Cameras                                   | |
