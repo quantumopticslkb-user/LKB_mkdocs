@@ -5,7 +5,7 @@ category: Tutorials
 ---
 
 All camera brands that we have in the group. <br>
-Group repository with all exapmles [here](https://github.com/Quantum-Optics-LKB/Cameras) .
+Group repository with all examples [here](https://github.com/Quantum-Optics-LKB/Cameras) .
 
 | Brand          | Model                 | Resolution | Pixel size (um) | Link to the official documentation                                                                                                                                                                                                                                                                                                                                                                          | Link to group made implementation |  Who is using it ? | How many ? |
 | :--------------- | ----------------------- | ------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- | ----------------------- |----------------------- |
