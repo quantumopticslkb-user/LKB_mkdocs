@@ -159,6 +159,8 @@ The lab remote repositories are hosted on github. To access the github server yo
 
 The most used language in the team. Mandatory to interface with the lab's equipment.
 
+Here is a [guide](https://github.com/Quantum-Optics-LKB/Workshops/blob/main/2024-11/PythonAndGoodCoding/python_basics.md) with links to simple tutorial to master the basic tools we often use.
+
 ### Installation advice
 
 You can install python throught [Conda-forge](https://conda-forge.org/) or if you are a nerd [MAMBAFORGE](https://mamba.readthedocs.io/en/latest/installation/mamba-installation.html).
