@@ -1,5 +1,0 @@
-- [Introduction](introduction)
-- [Defect](defect)
-- [Lasers](lasers)
-- [Transitions](transitions)
-- [Turbulence](turbulence)
