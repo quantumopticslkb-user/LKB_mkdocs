@@ -18,8 +18,11 @@ Used for communication inside the team and with other lkb members.
 
 - Join the lkb-all server (get the invite link from a team member)
 
-- Join the "Orders" board (at the top left of Mattermost app), to keep track of the orders. 
+- Join the "Orders" and "Wishlist" boards (at the top left of Mattermost app), to keep track of the orders. 
 
+!!! info
+    We have a backup server in case the main one is down. Ask a team member (Hanna) for the link.
+    
 
 ## Google groups and calendars
 
