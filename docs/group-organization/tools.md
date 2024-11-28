@@ -21,7 +21,7 @@ Used for communication inside the team and with other lkb members.
 - Join the "Orders" and "Wishlist" boards (at the top left of Mattermost app), to keep track of the orders. 
 
 !!! info
-    We have a backup server in case the main one is down. Ask a team member (Hanna) for the link.
+    We have a backup server in case the main one is down: `https://framateam.org/eq15b-secours`
     
 
 ## Google groups and calendars
