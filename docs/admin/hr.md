@@ -6,7 +6,7 @@ category: Tutorials
 
 ## Go on vacation
 
-**1**. Agreement from Alberto Bramati/ Quentin Glorieux
+**1**. Agreement from Alberto Bramati/ Quentin Glorieux / Hanna Le Jeannic
 
 **2**. Add on the Group [Google Calendar](/group-organization/tools/)
 
