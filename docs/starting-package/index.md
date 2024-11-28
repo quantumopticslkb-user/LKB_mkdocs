@@ -50,6 +50,8 @@ These are first steps when you arrive. The following sections outline everything
     This means you **must** create your accounts and log in to all this (be sure to make it work **NOW**). 
 
 - [Join](/group-organization/tools/) LKB-mattermost and Quantum-mattermost (and the channels inside)
+    - Channels: within Mattermost there are channels for different topics. Be sure to join the channels that are relevant to you.
+    - Boards: We use Mattermost boards to organize our work. Join EQ15B-Wishlist and Orders. 
 - Be sure to have access to all the group calendars.
 - Create a GitHub account, join the [Group github](https://github.com/Quantum-Optics-LKB ) and [learn how to use it](/group-organization/tools/).
     * Check that you have push access on the group github.
