@@ -10,7 +10,28 @@ category: Tutorials
 
 ##  Orders
 
-To do an order there are two parts : getting a quote, and then filing out the order form before the seller can send us anything.
+To do an order there are **seven** parts:<br>
+(1) get a quote<br>
+(2) ask for validation to your PI<br>
+(3) add the order to the Mattermost Board<br>
+(4) fill out the order form<br>
+(5) send the quote and order form to the admin at **gestion@lkb.upmc.fr**<br>
+(6) once the product is delivered, bring the signed delivery sheet to the admin <br>
+(7) close the order on Mattermost Board
+
+Details about each step are listed below.
+
+!!! Exception
+    For **Amazon** orders, you just need to send an email to the administration (use the adress **gestion@lkb.upmc.fr** for it to be acknolegded faster) containing a list with:<br>
+    - the URL of the item<br>
+    - the number of items<br>
+    - the NACRE code (see below)<br>
+
+!!! Exception
+    For **RS Electronics** orders, you need to create an account on the **FRENCH** RS electronics website (US wont work) and fill your cart. Then you need to send an email to **Loic Garcia** at **loic.garcia@lkb.upmc.fr** to inform him about your order, this email should contain: <br>
+    - your name, the name of the team (15B) and the PI <br>
+    - the credit you want to use <br>
+    Finally use the "transfer cart via email" button on RS Electronics website. Loic will take it from here.
 
 ### Asking a quote
 
@@ -18,17 +39,23 @@ When you are shopping for a brand new item for your lab, you need to first check
 Once you finish your basket, you need to **ask for a quote** and not try to finish the order like you would do for a personnal buy. There is usually a button somewhere at the end of the procedure, or you can directly contact the sales with an email. This is important because if you launch an order without first getting a quote, you may receive stuff that you will not be able to pay afterwards !
 
 !!! info
-    For Amazon orders, you need to send an email to the administration (use the adress **gestion@lkb.upmc.fr so it is adressed faster**) containing:<br>
-    - the URL of the item<br>
-    - the number of items<br>
-    - the NACRE code (see below)<br>
+    For **Thorlabs** orders, it depends on the credit you use: <br>
+    <br>
+    (1) if **SU credit**: <br>
+    - Use customer ID 408572 to get a 10% discount! (except specific items like microscope objectives). <br>
+    - Be sure to use the following billing adress: <br>
+    Sorbonne Université - Comptabilite Fournisseur - BC 500 4 place Jussieu, 75005 Paris, France <br>
+    - Send an email to TL reminding them that you have 10% discount for Quentin Glorieux's group to get the final quotation. <br>
+    - Don't forget to fill the "Bon de commande". <br>
+    <br>
+    (2) if **CNRS credit** : ID customer: 403832 : 9% discount (but not on US stuff or microscope objectives) <br>
 
 ### Register in Mattermost
-Register your order in the group's [Mattermost Board](https://mattermost.lkb.upmc.fr/boards/team/pbzjndnyx7nefgruk14er9fcqy/b7rotd56x7frrmnua364i9en84a/vju4844q68bbgtbh5xcenksaezy). Please attach all the possible information in the post. 
+Register your order in the group's [Mattermost Board](https://mattermost.lkb.upmc.fr/boards/team/pbzjndnyx7nefgruk14er9fcqy/b7rotd56x7frrmnua364i9en84a/vju4844q68bbgtbh5xcenksaezy). Please attach all the possible information in the post and **don't forget the quote!**
 
-### The order form 
+### The order form or "Bon de commande"
 
-If you wish to order something, you will have to first get a quote from the seller, and then fill out an order form ("bon de commande"). The template for such a file can be found on the [intranet](https://intranet.lkb.upmc.fr/wp-content/uploads/2019/10/Bon_commande_v6_8.pdf) of the lab, or in the administrative office in 13-23 second floor.
+If you wish to order something, you will have to first get a quote from the seller, and then fill out an order form ("bon de commande"). The template for such a file can be found on the [intranet](https://intranet.lkb.upmc.fr/wp-content/uploads/2019/10/Bon_commande_v6_8.pdf) of the lab, or in the administrative office in 13-23 second floor, or here:
 
 ![bon_commande](/assets/img/StartingPackage/general/bon_commande.png){ width=600 }
 
