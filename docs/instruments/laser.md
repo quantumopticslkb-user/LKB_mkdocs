@@ -28,45 +28,43 @@ All the lasers manual, test reports and softwares are available on LEON at `part
 | Kapaz | 780 nm | ~ 10 GHz | 1 W | DFB + EDFA | ? | EOM inside  | Unused |
 
 
-
-## Details and how to
-
-### Precilaser
+## How to use the ...
+## ... Precilaser 
 All the lasers manual, test reports and softwares are available on LEON at `partages/EQ15B/Manuals and Data Sheets/Lasers/Precilaser`. 
 
-#### Turn on
+### Turn on
 cf manual. <br>
 Plug the laser, turn it on, turn the key. Press "Enable", set the desired current value then press "Set(A)". Press "PSMode" for automatic optimization of parameters to deliver max power. To turn off : first set the current to 0, then press "Enable"
 
-#### Software
+### Software
 First, you need to connect the two USB cables (seed and laser) to your computer.\
 The software install is also in `partages/EQ15B/Manuals and Data Sheets/Lasers/Precilaser`. \
 To tune the laser frequency, click on "PreciSeed" (top of the screen), then select the connection port of the SEED, then press "connect". Then depending on the laser you can directly set the desired  wavelength, or otherwise tune the seed temperature (slowly, by step of 0.1 °C). For instance, for Fuji, a change of 0.1°C shifts the frequency by about 0.35 GHz.
 
-#### Python control
+### Python control
 [Here](https://github.com/Quantum-Optics-LKB/PreciLaser) is the (homemade) code to control the PreciLaser with Python.
 
-#### Details for the cold setup locking scheme
+### Details for the cold setup locking scheme
 Incoming
 
-### Toptica
-#### Turn on & control
+## ... Toptica
+### Turn on & control
 Pretty straightforward to turn on, press "enable". To control the frequency, adjust the piezo voltage. 
 
-#### Software
+### Software
 The "TOPAS" software is to be found here : https://www.toptica.com/company-profile/downloads-apps \
 Connect the laser to the lab network (and your computer) and on the software, go to "Connection settings" and select the laser IP adress (or name). 
 
-#### Python control
+### Python control
 You will find [here](https://github.com/Quantum-Optics-LKB/toptica_DL_control/blob/main/toptica_freq_control.py) codes exapmle to connect to the laser, calibrate the scanning frequency with an SAS, and set the frequency. 
 
-#### Extra info
+### Extra info
 For the Toptica lasers, a linear ramp of the pizeo voltage renders a linear scan of the laser frequency, so you can calibrate your scan frequency with a fit of a saturated abssorption spectrum. 
 
 For the TA lasers (Denali and Kilimandjaro) : coupling the fiber dock is a tedious (but ultimately satisfying) process. Don't expect to reach a better coupling than 55-60 % . [Here](https://www.toptica.com/fileadmin/Editors_English/03_products/11_Isolators_Photonicals/02_photonicals/toptica_FiberDock_Manual.pdf) is the fiber dock manual with the coupling process.
 
-### Muquans
-#### Turn on and control
+## ... Muquans
+### Turn on and control
 
 The lasers are connected via an Ethernet cable to the computer network. They are identified with the IP addresses:  
 - IP: 192.168.1.107 / Name: Shakhdag  / Port: 23
@@ -94,6 +92,6 @@ To turn off the amplifier:
  sml780_tool edfa_shutdown
  ```
  
- #### Scan the frequency
+ ### Scan the frequency
  You can scan the laser frequency over about 15 GHz by inputting a linear ramp of **maximum** 10V amplitude (with an AFG). Tune the central frequency with the offset of the ramp. If you need to shift it further, you can **very slowly and delicately** turn the temperature knob on the front panel of the laser. \
  Careful ! With those lasers, a linear voltage ramp doesn **not** result in a linear frequency ramp. To calibrate the frequency during a scan, you will need a Fabry-Perot in addition to the saturated absorption.
