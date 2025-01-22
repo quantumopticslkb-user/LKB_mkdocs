@@ -1,16 +1,24 @@
-# Foreword
+---
+title: How To ... in the Lab
+description: 'An exhaustive guide to all good practices in the lab'
+category: Tutorials
+---
+
+**This DOC was copypasted from Florian Schreck's documentation for the Strontium BEC group in the Institute of Physics of Amsterdam. Thanks to them !**
+
+## Foreword
 
 This page is meant to be an exhaustive, detailled, micromanaged, maniac and condescending list of procedures and tips for all the day to day work in our type of labs. Hopefully, if you follow all these instructions to the letter, you will be fast, efficient, and the job will be well done, which means better stability and in the end less work. I recommend that for each section, your read it carefully and completely, even if it is boring, as usually every tiny detail has annoying consequences.
 
 
-# Miscellaneous tips
+## Miscellaneous tips
 
 - Use apertures!!! Before changing anything on your beam setup, make sure that you have place correctly 2 apertures to define exactly your beam trajectory. Correctly means with a decent distance between them to be precise enough (the longer the better, TWSS), and with at least two mirrors (or equivalent) before them to be able to realign the beam to these apertures. Trust me, the 5 minutes you take to placec these apertures will make you gain at least an hour compare to the case where you have to realign everything without these marks.
 - To correctly align a beam on 2 apertures, you must ALWAYS look after the aperture, and not on the aperture: the scaterring that you see on the aperture depends often on the position of your eyes compare to the surface of the aperture, which is misleading. You will never do such a mistake if you look at what is transmitted through the aperture.
 - Once you finish your work (like at least at the end of each day), always CLEAN and TIDY your setup and your tools (back to their dedicated emplacement). By taking five minute to do that, you will gain 1 hour of not having to find your tool left in a random place. Also your colleagues will not hate you, and the whole group will work more efficiently and in a pleasant work environment.
 - Don't leave unclamped optics on the table: someone (it can happen to you, it can happen to me) will bump unto it and break it.
 
-# How to... mount a new optic
+## How to... mount a new optic
 - When manipulating optics, do not touch the optic useful surface (use a lens cleaning tissue to handle it, or at worst powder free gloves). If you touched it, you need to clean it right away (finger grease dried for months is very hard to remove). See the "How to..." clean optics.
 - LABEL the optic using a pencil. Write on the side of the thick optic, putting all meaningful information: optic type, part number, wavelength... If there is not enough space to label the optic itself (e.g. a lambda/2 waveplate), label the optic's mount. A non labelled optic can be already considered as lost, and losing expensive optics (200 euros easily for a waveplate, e.g.) is not tolerable.
 - ALWAYS make sure that the new optic is clean before placing it. If not, clean it.
@@ -20,7 +28,7 @@ This page is meant to be an exhaustive, detailled, micromanaged, maniac and cond
 - When mounting a PBS, ALWAYS put a piece of electrician tape below the PBS, otherwise it can slide.
 - When placing a lens: if you have a plano-convex lens, to minimize spherical aberrations, you must place the plan surface on the side where the waist is the closest. Example given, if your beam is collimated, then you place a lens, the convex surface is on the side of the collimated beam (in geometric optics, the waist is at the infinity, so ... far) and the plan surface is on the side of the focused beam. The same way of thinking applies for a plano-concave lens.
 
-# How to... place a new optic
+## How to... place a new optic
 
 - ALWAYS make sure that the new optic is clean before placing it. If not, clean it.
 - ALWAYS make sure that the new optic is labelled before placing it. If not, label it.
@@ -33,7 +41,7 @@ This page is meant to be an exhaustive, detailled, micromanaged, maniac and cond
 - When you clamp opto-mechanic parts, ALWAYS use an allen key to fix tightly, and NOT a ball driver. A ball driver is NEVER strong enough to clamp correctly optomecha parts.
 
 
-# How to... do a "walking"
+## How to... do a "walking"
 
 This is a very basic procedure, that everyone should master perfectly!
 
@@ -55,7 +63,7 @@ Following this procedure will make the beam converge more and more to the desire
 The setup presented in the picture is the simplest to understand, but you can do many variation of the walking procedure by putting you apertures at other place. The important point is not to mix up the relationship between mirror and aperture, so as to reach convergence.
 
 
-# How to... place an AOM from scratch
+## How to... place an AOM from scratch
 
 - If you plan to vary the frequency of your AOM, followed by injection into a fiber, you need to do a double pass AOM setup, as the beam angle depends on the Rf frequency.
 
@@ -97,7 +105,7 @@ The setup presented in the picture is the simplest to understand, but you can do
 - Rotate the lambda/4 waveplate to have the maximum amount of light passing through the cube. Fix the waveplate rotation.
 - Measure the input power, single pass diffracted power, double pass diffracted power, AOM single and double pass efficiency, and write it down on the labbook.
 
-# How to... inject an AOM already placed and almost aligned
+## How to... inject an AOM already placed and almost aligned
 
 In case an AOM is already placed and almost aligned, and you just want to tweak it a bit to have better diffraction efficiency (to compensate mechanical drift occuring over months).
 
@@ -111,7 +119,7 @@ In case an AOM is already placed and almost aligned, and you just want to tweak 
 - Measure the input power, diffracted power, AOM efficiency, and write it down on the labbook.
 
 
-# How to... inject an optical fiber
+## How to... inject an optical fiber
 
 The hardest part to inject a fiber is to get a signal on the other side of the fiber, even the slightest signal (use your eyes, an IR viewer, or a powermeter for the smallest signals below microW). Once you have it, it is relatively easy and requires to apply the formula in the section 4.
 
@@ -121,7 +129,7 @@ When you do not have a signal, that is when it can be a bit more hazardous, but 
 - Always inject a fiber first with LOW power, and once it is injected properly, put the nominal power and fine tune the injection by a last tiny "walking" procedure.
 
 
-## How to select/place the fiber/collimator
+### How to select/place the fiber/collimator
 
 - Take a fiber with a cutoff wavelength smaller than your laser beam wavelength, but still close to it.
 - Take a collimator with the appropriate Anti-Reflective coating. For our standard Schäfter+Kirchhoff collimators, the list of coatings and focal lengths is the following.
@@ -132,7 +140,7 @@ S+K collimator datasheet
 - If you know the size of the beam, you should choose your fiber/collimator such as the following formula is verified: w = NA x 0.82 x f. Where w is the waist of your beam, NA is the numerical aperture of the fiber, f is the focal length of the collimator. If you are aiming for the very best efficiency, it does not hurt to try different combinations around these parameters.
 - With our standard Schäfter+Kirchhoff collimators, place the collimator in its holder such as the big focus adjustment hole is facing upward (much more simple for finding the position of the focus, you will thank me later). Also make sure that the 2 tiny screws close to this focus adjustment hole can be reached when the collimator is mounted.
 
-## 1st method: the one you should never skip
+### 1st method: the one you should never skip
 
 - As always for an optic setup, the proper starting condition will save you a lot of time. This procedure do not ensure that you will see something, but you must do it anyway, as it will help you a lot for the other, more precise methods.
 - Make sure that your incoming beam follow the lines of the breadboard, drawn by the M6 threaded holes.
@@ -155,7 +163,7 @@ S+K collimator datasheet
 - If you do not see anything, even with the trick of pulling out the fiber, then repeat the whole procedure of the 1st method. If that is at least the second time you do it, and you have checked that you have followed every instructions to the letter, then maybe you are allowed to try the next method (but you have to be sure: always doubt yourself, always recheck your work).
 
 
-## 2nd method: retro style
+### 2nd method: retro style
 
 Using the fact that the S+K collimators have an output that is nicely perpendicular to the optical axis (the collimator lens axis), we can use the following method.
 
@@ -173,7 +181,7 @@ Using the fact that the S+K collimators have an output that is nicely perpendicu
 - If you still don't see anything, you can try the trick of pulling out the fiber (see method 1). Or repeat the whole method 2, or try another one.
 
 
-## 3rd method: for lazy/rich people
+### 3rd method: for lazy/rich people
 
 It is extremely easy to inject a fiber, if you already have a fiber injected (with similar wavelength) or if you have a laser such as the handeld fiber coupled Thorlabs HLS635 (which cost more than 500 euros, therefore is for spoiled kids only).
 
@@ -185,7 +193,7 @@ It is extremely easy to inject a fiber, if you already have a fiber injected (wi
 - Of course this method is not recommended if you can not afford to unplug the output end of the fiber, because you do not want to lose the alignment of the rest of the optical setup after the fiber.
 
 
-## Once you have a signal
+### Once you have a signal
 
 Even if you have the faintest (even nW on your power meter - checked by blocking then unblocking the light), it is enough to undergo the following procedure.
 
@@ -210,12 +218,12 @@ Even if you have the faintest (even nW on your power meter - checked by blocking
 - Job done, you can now start the "polarization maintaining procedure (see "How to ..." on the topic).
 
 
-# How to... do the polarisation maintaining of an optical fiber
+## How to... do the polarisation maintaining of an optical fiber
 
 Here we will use the Schäfter + Kirchhoff polarimeter, as it is a very powerful tool that can give exellent results. At the end, we will see the alternative case when you do not have such an expensive device (not recommended, though).
 
 
-## With S+K polarimeter
+### With S+K polarimeter
 
 - Make sure that you injected properly your fiber, so that you have a decent injection efficiency.
 - Make sure that the polarization is well defined: having a PBS somewhere in the path before the fiber injection is an easy way to get that. On a typical optical setup, there is often a PBS fixing the polarization somewhere before the fiber.
@@ -244,7 +252,7 @@ Here we will use the Schäfter + Kirchhoff polarimeter, as it is a very powerful
 - Job done.
 
 
-## Without S+K polarimeter
+### Without S+K polarimeter
 
 Let us now see the unfortunate, but not desperate case when you do not have this expensive S+K polarimeter.
 
@@ -256,7 +264,7 @@ Let us now see the unfortunate, but not desperate case when you do not have this
 - Job done.
 
 
-# How to... clean a mirror/lens/waveplate
+## How to... clean a mirror/lens/waveplate
 
 - When manipulating optics, do not touch the optic useful surface (use lens cleaning tissue to handle it, or at worst powder free gloves). If you touched it, you need to clean it right away (finger grease dried for months is very hard to remove).
 - First clean by just blowing air with the tiny air pump. Do not use air duster in spray cans, as they still deposit some product. Continue until this does not have any more effect.
@@ -270,7 +278,7 @@ Let us now see the unfortunate, but not desperate case when you do not have this
 - For big mirrors (2"), you can try differently: don't fold the tissue, put aceton on almost all of it, and holding a dry corner with your hand, make the tissue pass accross the unmounted mirror once. That is quite gentle, and can clean the whole surface in one sweep.
 
 
-# How to... clean an optical fiber
+## How to... clean an optical fiber
 
 The following steps needs to be taken in order (they are ordered from the least likely to damage the fiber to the most dangerous). The rule is: if the fiber is clean, stop ; if the step works (fiber gets cleaner), continue this step until it doesn't work anymore, or until the fiber is clean ; if the cleaning step does not work, pass to the next one.
 
@@ -283,7 +291,7 @@ The following steps needs to be taken in order (they are ordered from the least 
 - Do the same as the previous step, but applying more pressure while cleaning.
 - If the fiber is still not clean, it might be scratched or burned, in which case you need to polish it (topic for another "How to...").
 
-# How to... place a Faraday isolator
+## How to... place a Faraday isolator
 
 Before placing a Faraday isolator, here are 2 important safety advices:
 

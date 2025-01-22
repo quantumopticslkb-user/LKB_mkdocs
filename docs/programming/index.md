@@ -155,6 +155,24 @@ If you don't like videos, there is the classic [Pro Git Book](https://git-scm.co
 The lab remote repositories are hosted on github. To access the github server you can set up an ssh connection as shown 
 [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh). 
 
+## Hawking
+
+Hawking is the supercalculator located in the ColdLAB. You can connect to hawking via **ssh** to run quickly any demanding piece of code. It's possible to do that directly in VScode with the **SSH Extension**. Hawking's IP is **134.157.7.122**.
+
+!!! danger
+
+    Don't store anything on Hawking.<br> Before you get excited in the comms, and answer me “but yet I did put the path to LEON”: if you don't mount LEON there, it will just copy locally to Hawking! <br> This is what systematically crashes LEON (I went to look at the logs). <br> Every time you reboot, make sure you remount your LEON user on hawking with the ssh command 
+    ```md
+    utilisateur@patriot.lkb.upmc.fr:partages/EQ15B/LEON-15B/ /home/user/LEON.
+    ```
+
+If you have several GB used for your user account, this is usually a sign that you've started writing directly to hawking, you can check this by running
+```
+-h --max-depth=1 
+```
+in your /home/user folder.
+
+
 ## Python
 
 The most used language in the team. Mandatory to interface with the lab's equipment.

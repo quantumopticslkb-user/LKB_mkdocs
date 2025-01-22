@@ -61,7 +61,7 @@ The email must feature the info
 !!! warning
      You need a LKB email account
 
-Use the lab data storage server (Léon) to store your data. The IP address is **134.157.6.6** and you can access it using [ssh](/programming/index.md) with your LKB account. The team stores everything under the **eq15b\\** directory.
+Use the lab data storage server (Léon) to store your data. The IP address is **134.157.6.6** and you can access it using [ssh](/programming/) with your LKB account. The team stores everything under the **eq15b\\** directory.
 
 
 ### How to install the VPN ?

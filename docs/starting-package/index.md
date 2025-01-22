@@ -64,3 +64,6 @@ These are first steps when you arrive. The following sections outline everything
 - Group organisation tools
 - [Group github](https://github.com/Quantum-Optics-LKB )
 - [Awesome list](/awesome-list): list of tools that we found awesome. Mostly for device interfacing.
+
+## Final suggestion
+![keepcalm](/assets/img/StartingPackage/tools/keep-calm-RTFM.jpg){ width=600 }

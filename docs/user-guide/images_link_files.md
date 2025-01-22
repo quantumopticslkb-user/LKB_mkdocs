@@ -21,6 +21,13 @@ menuTitle: Images, Link, Files
 - ```size``` = size in %
 - ```center``` add it if you want to center the image
 
+Or : 
+
+![logo](/assets/logo-lkb-dark.svg){ width=200 }
+```md
+![logo](/Users/simon/Documents/CODE/LKB_mkdocs/docs/assets/logo-lkb-dark.svg){ width=200 }
+```
+
 ## Include a Link
 
 [Link Name](/Members/marianna)

@@ -46,7 +46,7 @@ You have to share your codes [here](https://github.com/Quantum-Optics-LKB).
 (Private) github [repository](https://github.com/Quantum-Optics-LKB/RbLab_Organisation) to keep tracks of the Rb team meetings, ideas, roadmaps...
 
 ## Zotero 
-Access the group bibliography here. <br>
+Access the group bibliography here. Click to join the [group library](https://www.zotero.org/groups/4622968/quantumopticslkb) or ask Maxime Jacquet. <br>
 To know more about Zotero, go [there](/publications).
 
 

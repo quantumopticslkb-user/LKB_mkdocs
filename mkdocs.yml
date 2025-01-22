@@ -32,6 +32,7 @@ nav:
   - Contribution:
     - Write documentation tutorial: user-guide/doc_lkb_tuto
     - Markdown Reference: user-guide/demo
+    - Link Images : user-guide/images_link_files
 theme:
   name: material
   logo: assets/logo-lkb-dark.svg
