@@ -27,7 +27,10 @@ nav:
     - Spectrum Analyzer: instruments/spectrum-analyzer
     - AOM & EOM: instruments/aom-eom
     - Wavemeter: instruments/wavemeter
-  - Publications: publications
+  - Publications:
+    - Bibliography: publications/bibliography
+    - Templates: publications/templates
+    - Publishing: publications/publications
   - About: about
   - Contribution:
     - Write documentation tutorial: user-guide/doc_lkb_tuto
