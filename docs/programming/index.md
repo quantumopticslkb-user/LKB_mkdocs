@@ -163,7 +163,7 @@ Hawking is the supercalculator located in the ColdLAB. You can connect to hawkin
 
     Don't store anything on Hawking.<br> Before you get excited in the comms, and answer me “but yet I did put the path to LEON”: if you don't mount LEON there, it will just copy locally to Hawking! <br> This is what systematically crashes LEON (I went to look at the logs). <br> Every time you reboot, make sure you remount your LEON user on hawking with the ssh command 
     ```md
-    utilisateur@patriot.lkb.upmc.fr:partages/EQ15B/LEON-15B/ /home/user/LEON.
+    sshfs **nom**@patriot.lkb.upmc.fr:/partages/EQ15B/LEON-15B /home/**USER**/LEON
     ```
 
 If you have several GB used for your user account, this is usually a sign that you've started writing directly to hawking, you can check this by running
