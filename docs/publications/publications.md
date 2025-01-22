@@ -55,7 +55,7 @@ As a scientist (Myrann speaking), our mission is to share knowledge with a speci
 
 ---
 
-### **Submitting to a Journal (e.g., PRA)**
+## **Submitting to a Journal (e.g., PRA)**
 
 Submitting an article to a journal like **Physical Review A (PRA)** is similar to submitting to arXiv, but with additional considerations specific to the journal's guidelines and expectations. Here’s how to navigate the process effectively:
 
