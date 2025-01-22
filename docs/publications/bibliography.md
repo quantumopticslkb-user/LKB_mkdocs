@@ -44,13 +44,14 @@ the group yet.
 
 To find interesting article, it might not be practical to read through
 50 years of published papers in the field.
-[Google Scholar](https://scholar.google.com/), if you're willing to sell
-your soul to capitalism and create an account, will provide you with daily
-relevant suggestions based on the authors you like.
-[Research Rabbit](https://researchrabbitapp.com/home) gives you suggestions
-based on a set of papers. It is capable (in theory) to give you the founding
-papers, similar, newer and older papers than the set you provided.
-It does force you to sign up with an account even if you don't need the
-functionality.
+
+- [Google Scholar](https://scholar.google.com/), if you're willing to sell
+  your soul to capitalism and create an account, will provide you with daily
+  relevant suggestions based on the authors you like.
+- [Research Rabbit](https://researchrabbitapp.com/home) gives you suggestions
+  based on a set of papers. It is capable (in theory) to give you the founding
+  papers, similar, newer and older papers than the set you provided.
+  It does force you to sign up with an account even if you don't need the
+  functionality.
 
 
