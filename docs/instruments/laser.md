@@ -32,7 +32,7 @@ All the lasers manual, test reports and softwares are available on LEON at `part
 ## Details and how to
 
 ### Precilaser
-All the lasers manual, test reports and softwares are available on LEON at `partages/EQ15B/Manuals and Data Sheets/Precilaser`. You will find all the info 
+All the lasers manual, test reports and softwares are available on LEON at `partages/EQ15B/Manuals and Data Sheets/Lasers/Precilaser`. 
 
 #### Turn on
 cf manual. <br>
@@ -40,34 +40,33 @@ Plug the laser, turn it on, turn the key. Press "Enable", set the desired curren
 
 #### Software
 First, you need to connect the two USB cables (seed and laser) to your computer.\
-The software install is also in `partages/EQ15B/Manuals and Data Sheets/Precilaser`. \
-To tune the 
+The software install is also in `partages/EQ15B/Manuals and Data Sheets/Lasers/Precilaser`. \
+To tune the laser frequency, click on "PreciSeed" (top of the screen), then select the connection port of the SEED, then press "connect". Then depending on the laser you can directly set the desired  wavelength, or otherwise tune the seed temperature (slowly, by step of 0.1 °C). For instance, for Fuji, a change of 0.1°C shifts the frequency by about 0.35 GHz.
 
 #### Python control
+[Here](https://github.com/Quantum-Optics-LKB/PreciLaser) is the (homemade) code to control the PreciLaser with Python.
 
-#### Cold Lab - DA BEAST MOT: 
-- TA control [driver](https://www.teamwavelength.com/download/Datasheets/lfi4500.pdf). Wavelength Electronics: LFI-4532 3.25 Amp Laser Diode Driver. Default current limit: 250 mA for LFI-4532.
-
-
-#### How to lock Everest for the GigaMOT
-The 8W Everest laser at 780 is designed to be locked using an OPLL provided by Precilaser. This offers flexibility and tunability.
-The plan is to lock a Master laser on any resonance of the 780nm line. This will be done by providing ~6mW to the PreciBox SAS. This Master laser will then be locked using Precilaser electronics. We could actually use the repump from the small MOT for example.
-(I dont know if we need to provide a modulation on this ?)
-
-The second step is to use the fiber combiner within the box to combine this Master laser with 3mW of Everest via the fiber input on the front panel of Precibox.
-Doing so, the electronics inside will allow to choose the lock point at any (reasonable) detuning from the Master laser (electronically), and will output an error signal (after a PID) to be reinjected into Everest piezo input.
+#### Details for the cold setup locking scheme
+Incoming
 
 ### Toptica
 #### Turn on & control
+Pretty straightforward to turn on, press "enable". To control the frequency, adjust the piezo voltage. 
+
 #### Software
-The "TOPAS" software is to be found here : https://www.toptica.com/company-profile/downloads-apps 
+The "TOPAS" software is to be found here : https://www.toptica.com/company-profile/downloads-apps \
+Connect the laser to the lab network (and your computer) and on the software, go to "Connection settings" and select the laser IP adress (or name). 
 
 #### Python control
-#### Extra info
+You will find [here](https://github.com/Quantum-Optics-LKB/toptica_DL_control/blob/main/toptica_freq_control.py) codes exapmle to connect to the laser, calibrate the scanning frequency with an SAS, and set the frequency. 
 
+#### Extra info
+For the Toptica lasers, a linear ramp of the pizeo voltage renders a linear scan of the laser frequency, so you can calibrate your scan frequency with a fit of a saturated abssorption spectrum. 
+
+For the TA lasers (Denali and Kilimandjaro) : coupling the fiber dock is a tedious (but ultimately satisfying) process. Don't expect to reach a better coupling than 55-60 % . [Here](https://www.toptica.com/fileadmin/Editors_English/03_products/11_Isolators_Photonicals/02_photonicals/toptica_FiberDock_Manual.pdf) is the fiber dock manual with the coupling process.
 
 ### Muquans
-#### How to use the MuQuans lasers 
+#### Turn on and control
 
 The lasers are connected via an Ethernet cable to the computer network. They are identified with the IP addresses:  
 - IP: 192.168.1.107 / Name: Shakhdag  / Port: 23
@@ -82,15 +81,19 @@ Power control is possible by setting the power of the Erbium Doped Fibre Amplifi
 !!! warning
   Always turn on the diode before the amplifier (and turn off the aplifier before turning off the diode) or you will break the laser (and it is not cheap). Also, always switch off the amplifier before the diode.
 
-The code to turn on the diode is:
+Turn on the diode:
  ``` bash
   sml780_tool Enable_Current_Laser_Diode <on|off>
  ```  
-The code to turn on the amplifier (ofr example on 1) is:
+Turn on the amplifier and set it to 1 (for example):
  ``` bash
   sml780_tool edfa_set 1
  ```   
-The code to turn off the amplifier is:  
+To turn off the amplifier:  
  ``` bash
  sml780_tool edfa_shutdown
- ```  
+ ```
+ 
+ #### Scan the frequency
+ You can scan the laser frequency over about 15 GHz by inputting a linear ramp of **maximum** 10V amplitude (with an AFG). Tune the central frequency with the offset of the ramp. If you need to shift it further, you can **very slowly and delicately** turn the temperature knob on the front panel of the laser. \
+ Careful ! With those lasers, a linear voltage ramp doesn **not** result in a linear frequency ramp. To calibrate the frequency during a scan, you will need a Fabry-Perot in addition to the saturated absorption.
