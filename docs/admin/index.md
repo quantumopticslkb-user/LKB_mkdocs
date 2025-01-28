@@ -9,3 +9,4 @@ description: 'a toc ?'
 - [Data Storage](data)
 - [Orders and Missions](orders)
 - [Human Ressources](hr)
+- [Campus information](campus)

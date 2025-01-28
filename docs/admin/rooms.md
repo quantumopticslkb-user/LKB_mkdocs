@@ -6,8 +6,32 @@ category: Tutorials
 
 ## Obtain a KABA key
 
-You need to go to the administrative office and check with Laetitia Morel or David Noël. You will need to specify a "profile" of the key i.e which doors it will open. For this it is easiest to give the same profile as another older PhD student / Post doc. When your key is ready you will have to go with an ID to the bottom of tower 65 ("Gestion de droits d'accès").\
+You need to go to the administrative office and check with Laetitia Morel or David Noël. You will need to specify a "profile" of the key i.e which doors it will open. For this it is easiest to give the same profile as another older PhD student / Post doc. 
+
+**Access Control Service Details**:  
+**Access Rights Management** 
+When your key is ready you will have to go with an ID to the bottom of Tour 65/55 – Jussieu Level   ("Gestion de droits d'accès").
+
+Don't forget to bring a valid ID.
+
+
 Sometimes, the key might be a little buggy, in this case you might want to revive it by going to the magic KABA pillar in tower 23 first floor : there is a port on one of the pillars that resets your KABA key.
+
+### Procedure for Returning Kaba Keys and Badges Upon Permanent Departure from the University
+
+This procedure, provided by the Logistics and Campus Management Department, outlines the steps to follow when returning Kaba keys and badges.
+
+### Lost Kaba Key?
+
+If you have lost your Kaba key, please visit the Access Control Service (Tour 65) to:
+
+- File a loss declaration.
+- Request the cancellation of your key.
+- Request a replacement key.
+
+
+
+
 
 ## Rooms locations
 
@@ -37,3 +61,7 @@ If you are searching for someone else's office, go [there](https://www.lkb.upmc.
 
 ## Parking in Jussieu
 Fill this [form](https://lime3-app2.sorbonne-universite.fr/index.php/296572?lang=fr)
+
+## Room Reservations
+
+For room reservations, please contact the [relevant department or service](https://resa.ingenierie.upmc.fr/).
