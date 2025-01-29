@@ -45,7 +45,7 @@ To tune the laser frequency, click on "PreciSeed" (top of the screen), then sele
 [Here](https://github.com/Quantum-Optics-LKB/PreciLaser) is the (homemade) code to control the PreciLaser with Python.
 
 ### Details for the cold setup locking scheme
-Incoming
+This is described in [this page](https://github.com/Quantum-Optics-LKB/RbLabBook/blob/main/Cold/Precilasers%20INFO%20and%20LOCKING.md) of the cold setip labbook.
 
 ## ... Toptica
 ### Turn on & control
@@ -60,6 +60,8 @@ You will find [here](https://github.com/Quantum-Optics-LKB/toptica_DL_control/bl
 
 ### Extra info
 For the Toptica lasers, a linear ramp of the pizeo voltage renders a linear scan of the laser frequency, so you can calibrate your scan frequency with a fit of a saturated abssorption spectrum. 
+
+Tuto to lock the Toptica lasers with SAS (in particular for the cold setup): [here](https://github.com/Quantum-Optics-LKB/RbLabBook/blob/main/Cold/Toptica%20Lock%20tutorial.md) .
 
 For the TA lasers (Denali and Kilimandjaro) : coupling the fiber dock is a tedious (but ultimately satisfying) process. Don't expect to reach a better coupling than 55-60 % . [Here](https://www.toptica.com/fileadmin/Editors_English/03_products/11_Isolators_Photonicals/02_photonicals/toptica_FiberDock_Manual.pdf) is the fiber dock manual with the coupling process.
 
