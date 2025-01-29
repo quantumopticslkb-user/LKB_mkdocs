@@ -4,7 +4,7 @@
 - **Emergency Numbers**: [Campus Pierre et Marie Curie (PDF, 72.89 KB)](https://sciences.sorbonne-universite.fr/sites/default/files/media/2020-01/numeros_durgence_-_campus_pierre_et_marie_curie.pdf)  
 - **Useful Contacts**: [Campus Pierre et Marie Curie (PDF, 687.88 KB)](https://sciences.sorbonne-universite.fr/sites/default/files/media/2020-01/contacts_utiles_-_campus_pierre_et_marie_curie.pdf)  
 - **What to Do in Case of Evacuation**: [Evacuation Note (PDF, 27.18 KB)](https://sciences.sorbonne-universite.fr/sites/default/files/media/2020-01/consignes_de_securite_evacuation.pdf)  
-- **Evacuation of Persons with Reduced Mobility (ERP)**: [Evacuation Guide 2017 (PDF, 66.18 KB)](https://sciences.sorbonne-universite.fr/sites/default/files/media/2020-01/evacuation_des_personnes_a_mobilite_reduite_-_erp_-_2017.pdf
+- **Evacuation of Persons with Reduced Mobility (ERP)**: [Evacuation Guide 2017 (PDF, 66.18 KB)](https://sciences.sorbonne-universite.fr/sites/default/files/media/2020-01/evacuation_des_personnes_a_mobilite_reduite_-_erp_-_2017.pdf)
 
 
 ## Access to Pierre and Marie Curie Campus and Parking Requests

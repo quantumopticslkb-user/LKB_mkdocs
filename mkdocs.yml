@@ -5,13 +5,13 @@ nav:
   - Starting Package: starting-package
   - Awesome List: awesome-list
   - Admin: 
+    - Jussieu campus: admin/campus
+    - Keys & Rooms: admin/rooms
     - IT Guide: admin/computers
     - Human ressources: admin/hr
     - Orders and Missions: admin/orders
-    - Provders: admin/providers
-    - Jussieu campus: admin/campus
+    - Providers: admin/providers
     - Go to Lunch: admin/restaurant
-    - Keys & Rooms: admin/rooms
     - Data storage: group-organization/data
   - Group Organization: 
     - Essential Tools: group-organization/tools

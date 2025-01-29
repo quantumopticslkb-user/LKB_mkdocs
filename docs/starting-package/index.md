@@ -19,7 +19,7 @@ These are first steps when you arrive. The following sections outline everything
 
 - Go to the admin office (13-23, 2nd floor) and introduce yourself !
 - Get a [key](/admin/rooms/)
-- Get an email [here](/admin/) : Go to the admin office and ask David
+- Get an email [here](/admin/computers) : Go to the admin office and ask David
 - Ask for the MAC address (Your computer identifier) of your computer to be [recorded on the network](/admin/computers/)
 - Check that you can join the [server LEON](/admin/computers/) (to be used for storing experimental data and simulation results): Only when you have an email address and open a ticket by [sending an email here](mailto:support@lkb.upmc.fr)
 

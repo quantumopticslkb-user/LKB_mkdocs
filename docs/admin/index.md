@@ -8,5 +8,6 @@ description: 'a toc ?'
 - [Computers and network](computers)
 - [Data Storage](data)
 - [Orders and Missions](orders)
+- [Providers](providers)
 - [Human Ressources](hr)
 - [Campus information](campus)
