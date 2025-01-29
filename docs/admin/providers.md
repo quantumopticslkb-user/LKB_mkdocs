@@ -2,14 +2,19 @@
 
 There is a chemistry shop on Campus called SIARE ([see website](https://sciences.sorbonne-universite.fr/faculte/ufr-instituts-observatoires-ecoles/ufr-de-chimie/service-la-recherche-et-lenseignement-0)). It is run by the chemistry department.
 
+!!! Info 
+    A catalog is available on the intranet of Sorbonne!
+
+!!! danger
+
+    Before going to SIARE you need to go to the admin office to ask for the Lab Order Book. I contains all the infos about the lab and will be the only place where you write your order details for future facturation.
+
 It's divided in two spots:
 
-- **The shop:** opened from 9h -12h and 14h - 17h (Phone : 01 44 27 30 92).
-It's located in tower 42-43, 101 bis.
+- **The shop:** opened from 9h -12h and 14h - 17h (Phone : 01 44 27 30 92). It's located in tower 42-43, 101 bis. For any question or to order online, contact them by email at **magasin.siare@upmc.fr** with the Lab client code.
 
 - **The solvant hold:** opened Monday, Wednesday et Friday between 9h30 and 11h30 (Phone: 01 44 27 32 00). It's the prefered way to get chemicals
 for the lab (lense cleaning and so on).
-
 
 
 ## Hardware
