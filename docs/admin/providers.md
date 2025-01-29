@@ -3,7 +3,7 @@
 There is a chemistry shop on Campus called SIARE ([see website](https://sciences.sorbonne-universite.fr/faculte/ufr-instituts-observatoires-ecoles/ufr-de-chimie/service-la-recherche-et-lenseignement-0)). It is run by the chemistry department.
 
 !!! Info 
-    A catalog is available on the intranet of Sorbonne!
+    A catalog is available on the intranet of Sorbonne! (and [here](/assets/pdfs/SIARE Catalogue 2025.pdf))
 
 !!! danger
 
