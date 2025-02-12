@@ -42,13 +42,19 @@ Once you finish your basket, you need to **ask for a quote** and not try to fini
     For **Thorlabs** orders, it depends on the credit you use: <br>
     <br>
     (1) if **SU credit**: <br>
-    - Use customer ID 408572 to get a 10% discount! (except specific items like microscope objectives). <br>
+    - Use customer ID 408572 to get a **10% discount!** (except specific items like microscope objectives). <br>
     - Be sure to use the following billing adress: <br>
-    Sorbonne Université - Comptabilite Fournisseur - BC 500 4 place Jussieu, 75005 Paris, France <br>
-    - Send an email to TL reminding them that you have 10% discount for Quentin Glorieux's group to get the final quotation. <br>
-    - Don't forget to fill the "Bon de commande". <br>
+    **Sorbonne Université - Comptabilite Fournisseur - BC 500 4 place Jussieu, 75005 Paris, France** <br>
+    - I you don't have it already, send an email to TL reminding them that you have 10% discount for Quentin Glorieux's group to get the final quotation. <br>
+    - and the shipping adress should be: <br>
+    **Laboratoire Kastler Brossel-CNRS, Tour 23 - 2ème étage Couloir Ouest-Bureau 203, 4 Place Jussieu - Case 74, 75252 PARIS Cedex 05**<br>
     <br>
-    (2) if **CNRS credit** : ID customer: 403832 : 9% discount (but not on US stuff or microscope objectives) <br>
+    (2) if **CNRS credit** : ID customer: 403832 : **9% discount** (but not on US stuff or microscope objectives).<br>
+    - You need to check that the facturation adress is: <br>
+    **CNRS 1285, CNRS -SCTD, 2 Rue Jean Zay, TSA° 31001, 54519 VANDOEUVRE LES NANCY, France**<br>
+    (normally thorlabs should automatically add this to the quote with the account number)<br>
+    - and the shipping adress should be: <br>
+    **Laboratoire Kastler Brossel-CNRS, Tour 23 - 2ème étage Couloir Ouest-Bureau 203, 4 Place Jussieu - Case 74, 75252 PARIS Cedex 05**<br>
 
 ### Register in Mattermost
 Register your order in the group's [Mattermost Board](https://mattermost.lkb.upmc.fr/boards/team/pbzjndnyx7nefgruk14er9fcqy/b7rotd56x7frrmnua364i9en84a/vju4844q68bbgtbh5xcenksaezy). Please attach all the possible information in the post and **don't forget the quote!**
