@@ -33,6 +33,9 @@ Details about each step are listed below.
     - the credit you want to use <br>
     Finally use the "transfer cart via email" button on RS Electronics website. Loic will take it from here.
 
+!!! Exception
+    In rare occasions, planets align and you may be awarded the right to use the Lab Credit Card. It is stored in Quentin's and Alberto's office and the secret code is passed on from generations to generations. If you use this card then you **always need to get a bill** from the supplier. A card ticket is not enough! (unless it is stamped by the company)
+
 ### Asking a quote
 
 When you are shopping for a brand new item for your lab, you need to first check the sellers with whom we have a discount. Those include : **Thorlabs**, **Edmund Optics**, **RS Electronics** (and more but you need to check with the administrative office). For these companies, we usually have a client number to fill out in order to see the discounted prices at checkout.\
@@ -49,7 +52,8 @@ Once you finish your basket, you need to **ask for a quote** and not try to fini
     - and the shipping adress should be: <br>
     **Laboratoire Kastler Brossel-CNRS, Tour 23 - 2ème étage Couloir Ouest-Bureau 203, 4 Place Jussieu - Case 74, 75252 PARIS Cedex 05**<br>
     <br>
-    (2) if **CNRS credit** : ID customer: 403832 : **9% discount** (but not on US stuff or microscope objectives).<br>
+    (2) if **CNRS credit** : <br>
+    - Use customer ID 403832 : **9% discount** (but not on US stuff or microscope objectives).<br>
     - You need to check that the facturation adress is: <br>
     **CNRS 1285, CNRS -SCTD, 2 Rue Jean Zay, TSA° 31001, 54519 VANDOEUVRE LES NANCY, France**<br>
     (normally thorlabs should automatically add this to the quote with the account number)<br>
