@@ -28,10 +28,21 @@ Details about each step are listed below.
     - the NACRE code (see below)<br>
 
 !!! Exception
+    Previously, Loic from Electronic workshop was taking care of the orders, and we used this procedure:<br>
+    <br>
     For **RS Electronics** orders, you need to create an account on the **FRENCH** RS electronics website (US wont work) and fill your cart. Then you need to send an email to **Loic Garcia** at **loic.garcia@lkb.upmc.fr** to inform him about your order, this email should contain: <br>
     - your name, the name of the team (15B) and the PI <br>
     - the credit you want to use <br>
-    Finally use the "transfer cart via email" button on RS Electronics website. Loic will take it from here.
+    Finally use the "transfer cart via email" button on RS Electronics website. Loic will take it from here.<br>
+    <br>
+    Now, he often refuses to pass orders for us, in this case we use David's account with this procedure:<br>
+    <br>
+    First know which credit you want to use: <br>
+    -> if **Sorbonne** credit: login noelSU, pwd: david75016?<br>
+    -> if **CNRS** credit: login noelCNRS, pwd: David75016!<br>
+    - Fill up your cart and pass the order, when asked to choose an approbator, pick either **David or Céline**.<br>
+    - Very important: when you do the order, **WRITE IN THE COMMENT SECTION YOUR NAME AND TEAM (15B) and the CREDIT NAME** for the admin to know who passed the order.<br>
+    - Finalize the order and make sure that an email is sent to the right person (David or Céline).<br>
 
 !!! Exception
     In rare occasions, planets align and you may be awarded the right to use the Lab Credit Card. It is stored in Quentin's and Alberto's office and the secret code is passed on from generations to generations. If you use this card then you **always need to get a bill** from the supplier. A card ticket is not enough! (unless it is stamped by the company)
