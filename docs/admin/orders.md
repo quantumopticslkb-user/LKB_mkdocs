@@ -89,6 +89,10 @@ In order to fill out this form, you will need to fill the following fields : <br
 
 Then comes the tricky part ... You need to fill out every item in the file, translating all items name to french, and using a [nomenclature](https://intranet.lkb.upmc.fr/wp-content/uploads/2020/02/referentiel_nacres-2014.zip) that is highly non-trivial (NACRES nomenclature). Most of the optics stuff has code OA01, but you need to check for everything in this file. To make filling out this part easier, you can use [this](https://github.com/laboGigan/thorlabsBC) excellent Python repo written by the Gigan team.
 
+!!! Exception
+    Sometimes if all articles are below 3k euros and share the same NACRE code, you can fill the "Bon de Commande" with only one line! But ask the admins before to be sure.
+
+
 ### After receiving the item
 
 After you received all of your order, **you need to quickly bring the shipping label to the administrative office** on the second floor in order to pay the seller ! If you do not do this, the lab can be **blacklisted** from certain suppliers that are tired of not getting paid ! This has already happened more than once and it is a penalty for the whole lab !
