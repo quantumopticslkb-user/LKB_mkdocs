@@ -38,8 +38,8 @@ Details about each step are listed below.
     Now, he often refuses to pass orders for us, in this case we use David's account with this procedure:<br>
     <br>
     First know which credit you want to use: <br>
-    -> if **Sorbonne** credit: login noelSU, pwd: david75016?<br>
-    -> if **CNRS** credit: login noelCNRS, pwd: David75016!<br>
+    -> if **Sorbonne** credit: login noelSU, pwd: see Mattermost<br>
+    -> if **CNRS** credit: login noelCNRS, pwd: see Mattermost<br>
     - Fill up your cart and pass the order, when asked to choose an approbator, pick either **David or Céline**.<br>
     - Very important: when you do the order, **WRITE IN THE COMMENT SECTION YOUR NAME AND TEAM (15B) and the CREDIT NAME** for the admin to know who passed the order.<br>
     - Finalize the order and make sure that an email is sent to the right person (David or Céline).<br>
