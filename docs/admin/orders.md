@@ -124,8 +124,9 @@ Important infos to fill:
 - Departure and arrival time (Départ de Paris): This should be the time you leave or arrive home
 
 - Transportation fees
-    plane tickets/ train tickets :  Bon de transport (through SIMBAD...)
-    bus/metro/taxi tickets: Keep all the receipts for refunding
+    - you can go through [Eyoma](https://sorbonne-universite.eyoma.com/#/) to book the train/plane tickets
+    - also for plane tickets/ train tickets :  Bon de transport (through SIMBAD...)
+    - bus/metro/taxi tickets: Keep all the receipts for refunding
 
 - Registration fee (Frais d’inscription)
 
