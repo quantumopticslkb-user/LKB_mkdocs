@@ -7,6 +7,9 @@ category: Tutorials
 !!! info
     This tutorial aims at explaining how to handle administrative tasks upon your arrival. All these informations are available with more details in the [LKB Intranet](https://intranet.lkb.upmc.fr/).
 
+!!! info
+    For questions or infos on the orders, go check [the Mattermost channel](https://mattermost.lkb.upmc.fr/eq15b/channels/orders).
+
 
 ##  Orders
 
@@ -28,20 +31,20 @@ Details about each step are listed below.
     - the NACRE code (see below)<br>
 
 !!! Exception
-    Previously, Loic from Electronic workshop was taking care of the orders, and we used this procedure:<br>
+    For **RS Electronics**
+    First know which credit you want to use, the connect to the FRENCH website using the corresponding account: <br>
     <br>
-    For **RS Electronics** orders, you need to create an account on the **FRENCH** RS electronics website (US wont work) and fill your cart. Then you need to send an email to **Loic Garcia** at **loic.garcia@lkb.upmc.fr** to inform him about your order, this email should contain: <br>
-    - your name, the name of the team (15B) and the PI <br>
-    - the credit you want to use <br>
-    Finally use the "transfer cart via email" button on RS Electronics website. Loic will take it from here.<br>
+    -> if **SU** credit: login LEJEANNICUNIV, pwd: see Mattermost<br>
+    -> if **SU** credit: login: qglorieux pwd: see Mattermost<br>
+    -> if **SU** credit: login noelSU, pwd: see Mattermost<br>
     <br>
-    Now, he often refuses to pass orders for us, in this case we use David's account with this procedure:<br>
-    <br>
-    First know which credit you want to use: <br>
-    -> if **Sorbonne** credit: login noelSU, pwd: see Mattermost<br>
+    -> if **CNRS** credit: login HLJeannicCNRS, pwd: see Mattermost<br>
     -> if **CNRS** credit: login noelCNRS, pwd: see Mattermost<br>
+    <br>
     - Fill up your cart and pass the order, when asked to choose an approbator, pick either **David or Céline**.<br>
-    - Very important: when you do the order, **WRITE IN THE COMMENT SECTION YOUR NAME AND TEAM (15B) and the CREDIT NAME** for the admin to know who passed the order.<br>
+    <br>
+    Very important: when you do the order, **WRITE IN THE COMMENT SECTION YOUR NAME AND TEAM (15B) and the CREDIT NAME** for the admin to know who passed the order.<br>
+    <br>
     - Finalize the order and make sure that an email is sent to the right person (David or Céline).<br>
 
 !!! Exception
@@ -78,7 +81,7 @@ Register your order in the group's [Mattermost Board](https://mattermost.lkb.upm
 
 If you wish to order something, you will have to first get a quote from the seller, and then fill out an order form ("bon de commande"). The template for such a file can be found on the [intranet](https://intranet.lkb.upmc.fr/wp-content/uploads/2019/10/Bon_commande_v6_8.pdf) of the lab, or in the administrative office in 13-23 second floor, or here:
 
-![bon_commande](/assets/img/StartingPackage/general/bon_commande.png){ width=600 }
+[Bon_de_commande_V2025](/assets/img/StartingPackage/general/Bon_commande V2025.doc)
 
 In order to fill out this form, you will need to fill the following fields : <br>
 - **DEMANDEUR** : This is you, the person who wants to order. You will need to fill in your name and telephone number. <br>

@@ -1,3 +1,17 @@
+## CNRS material market
+
+For all type of lab supplies, a market is opened on the intranet of CNRS. You can access it via this link : 
+
+-> [Bourse aux matériels CNRS](https://intranet.cnrs.fr/Cnrs_pratique/achats/boursemateriel/Pages/default.aspx)
+
+You can find anything from microscopes to 3D printers for all prices (including gifts !)
+
+## UGAP
+
+Ugap is a public market that sells all kind of office supplies to public services. This includes office chairs, electronics, computers... 
+
+You can access it [here](https://www.ugap.fr/)
+
 ## Chemistry supplies
 
 There is a chemistry shop on Campus called SIARE ([see website](https://sciences.sorbonne-universite.fr/faculte/ufr-instituts-observatoires-ecoles/ufr-de-chimie/service-la-recherche-et-lenseignement-0)). It is run by the chemistry department.

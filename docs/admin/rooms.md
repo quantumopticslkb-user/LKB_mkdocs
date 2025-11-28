@@ -33,7 +33,7 @@ If you have lost your Kaba key, please visit the Access Control Service (Tour 65
 
 
 
-## Rooms locations
+## Rooms locations and phone numbers
 
 - Administration office : 13-23 203
 - Cafeteria 13-23 204
@@ -49,7 +49,7 @@ If you have lost your Kaba key, please visit the Access Control Service (Tour 65
 - Rubidium extra offices : 12-13 302
 - Nano-optics thesarium : 12-13 215
 
-- Rubidium lab : SS 23-33 108
+- Rubidium lab : SS 23-33 108  -----  phone : 0144275088
 - Nanoptics lab : next to Rubidium lab
 - Polariton lab : 12-13 313
 
