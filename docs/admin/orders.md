@@ -56,6 +56,11 @@ When you are shopping for a brand new item for your lab, you need to first check
 Once you finish your basket, you need to **ask for a quote** and not try to finish the order like you would do for a personnal buy. There is usually a button somewhere at the end of the procedure, or you can directly contact the sales with an email. This is important because if you launch an order without first getting a quote, you may receive stuff that you will not be able to pay afterwards !
 
 !!! info
+    The company may ask for the **VAT number** of the lab (TVA in French). These are the numbers depending on the credit that you use:<br>
+    - CNRS : TVA FR40180089013<br>
+    - SU : TVA FR90130023385<br>
+
+!!! info
     For **Thorlabs** orders, it depends on the credit you use: <br>
     <br>
     (1) if **SU credit**: <br>
@@ -101,6 +106,8 @@ Then comes the tricky part ... You need to fill out every item in the file, tran
 After you received all of your order, **you need to quickly bring the shipping label to the administrative office** on the second floor in order to pay the seller ! If you do not do this, the lab can be **blacklisted** from certain suppliers that are tired of not getting paid ! This has already happened more than once and it is a penalty for the whole lab !
 
 If it's a on site service without shipping label, fill the form [this form](/assets/pdfs/CNRS-Attestation-de-livraison.pdf), and give it to secretary for them to finally pay the service.
+
+
 
 ## Missions
 
