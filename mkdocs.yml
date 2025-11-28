@@ -73,7 +73,7 @@ repo_url: https://github.com/quantumopticslkb-user/LKB_mkdocs
 repo_name: LKB GitHub
 edit_uri: tree/main/docs/
 plugins:
-  - mkdocs-jupyter
+  # - mkdocs-jupyter
   - search
 
 markdown_extensions:
