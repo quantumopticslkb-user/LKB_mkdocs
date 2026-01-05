@@ -1,5 +1,5 @@
 ---
-title: Keys and rooms
+title: Keys, rooms and phone
 description: 'A guide to all rooms stuff'
 category: Tutorials
 ---
@@ -58,6 +58,19 @@ If you have lost your Kaba key, please visit the Access Control Service (Tour 65
 
 If you are searching for someone else's office, go [there](https://www.lkb.upmc.fr/annuaire/)
 
+## How to use the Lab Phone
+
+To call someone inside the lab (for instance the admin office) :
+
+- simply type the number
+
+To call a phone outside the lab (for instance a cellphone) :
+
+- add 0 before typing the number. Example : for 06 07 .... type 0 06 07 ....
+
+To call international numbers :
+
+- replace +XX by 00XX. Example : for +34 6 07 .... type 0 0034 6 07 ....
 
 ## Parking in Jussieu
 Fill this [form](https://lime3-app2.sorbonne-universite.fr/index.php/296572?lang=fr)
