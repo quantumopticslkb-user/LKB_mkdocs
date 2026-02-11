@@ -61,9 +61,7 @@ These are first steps when you arrive. The following sections outline everything
 
 ## So you are ready for more. Check out the...
 - Advices on [programming tools](/programming) :  Python, VSCode, Github, SSH
-- Group organisation tools
+- [Group organisation tools](/group-organization/tools/)
 - [Group github](https://github.com/Quantum-Optics-LKB )
 - [Awesome list](/awesome-list): list of tools that we found awesome. Mostly for device interfacing.
 
-## Final suggestion
-![keepcalm](/assets/img/StartingPackage/tools/keep-calm-RTFM.jpg){ width=600 }

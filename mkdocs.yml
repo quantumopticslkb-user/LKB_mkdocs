@@ -20,7 +20,9 @@ nav:
   - Programming: 
     - General: programming/general
     - Hawking: programming/hawking
-    
+    - NLSE:
+      - Quick start: programming/nlse
+      - Hawking install: programming/nlse_install
   - Instruments: 
     - AFG: instruments/afg
     - Camera: instruments/camera
@@ -58,6 +60,7 @@ theme:
   features:
     - search.suggest
     - navigation.instant
+    - navigation.indexes
     - content.code.copy
     - navigation.top
     - navigation.footer
@@ -78,6 +81,13 @@ edit_uri: tree/main/docs/
 plugins:
   # - mkdocs-jupyter
   - search
+  - encryptcontent:
+      global_password: !ENV SITE_PASSWORD
+      title_prefix: 'x'
+      summary: 'This page is password protected'
+      placeholder: 'Enter password'
+      decryption_failure_message: 'Wrong password!'
+      encryption_info_message: 'Contact the site administrator for access.'
 
 markdown_extensions:
   - pymdownx.arithmatex:
@@ -108,6 +118,7 @@ extra_javascript:
   - assets/js/katex.js
   - https://unpkg.com/katex@0/dist/katex.min.js
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+  - assets/js/persistent-nav.js
 
 extra_css:
   - https://unpkg.com/katex@0/dist/katex.min.css
