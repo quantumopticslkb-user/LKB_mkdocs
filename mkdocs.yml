@@ -83,7 +83,7 @@ plugins:
   - search
   - encryptcontent:
       global_password: !ENV SITE_PASSWORD
-      title_prefix: 'x'
+      title_prefix: ''
       summary: 'This page is password protected'
       placeholder: 'Enter password'
       decryption_failure_message: 'Wrong password!'
