@@ -59,11 +59,36 @@ python -c "import cupy as cp; print('CuPy version:', cp.__version__); print('GPU
 
 You should see the CuPy version and number of GPUs detected (e.g., "2" for dual GPU setup).
 
-**Note:** CUDA runtime headers are automatically installed with `cuda-toolkit`. They're located in `$CONDA_PREFIX/targets/x86_64-linux/include/` and CuPy will find them automatically.
+---
+
+## Step 4: Configure CUDA Headers for CuPy
+
+CUDA headers are installed in `$CONDA_PREFIX/targets/x86_64-linux/include/` but CuPy's JIT compiler expects them in `$CONDA_PREFIX/include/`. Create symlinks to make them accessible:
+
+```bash
+# Create symlinks for CUDA headers
+mkdir -p $CONDA_PREFIX/include
+cd $CONDA_PREFIX/include
+ln -sf ../targets/x86_64-linux/include/*.h .
+
+# Set CUDA_HOME permanently for this environment
+conda env config vars set CUDA_HOME=$CONDA_PREFIX -n nlse
+
+# Reactivate environment to apply changes
+conda deactivate
+conda activate nlse
+```
+
+Verify CUDA_HOME is set:
+
+```bash
+echo $CUDA_HOME
+# Should show: /home/yourusername/.conda/envs/nlse
+```
 
 ---
 
-## Step 4: Install PyVkFFT
+## Step 5: Install PyVkFFT
 
 ```bash
 export LDFLAGS="-L$CONDA_PREFIX/lib"
@@ -77,7 +102,7 @@ This step compiles PyVkFFT from source and may take a few minutes.
 
 ---
 
-## Step 5: Install NLSE
+## Step 6: Install NLSE
 
 ```bash
 cd ~/
@@ -88,7 +113,7 @@ pip install .
 
 ---
 
-## Step 6: Test Your Installation
+## Step 7: Test Your Installation
 
 ```bash
 cd ~/NLSE
@@ -127,6 +152,14 @@ export CPPFLAGS="-I$CONDA_PREFIX/include"
 # Install CuPy for CUDA 13.x
 pip install cupy-cuda13x
 
+# Configure CUDA headers for CuPy JIT compiler
+mkdir -p $CONDA_PREFIX/include
+cd $CONDA_PREFIX/include
+ln -sf ../targets/x86_64-linux/include/*.h .
+
+# Set CUDA_HOME permanently
+conda env config vars set CUDA_HOME=$CONDA_PREFIX -n nlse
+
 # Install PyVkFFT
 pip install pyvkfft --no-cache-dir --no-binary pyvkfft
 
@@ -137,13 +170,44 @@ cd NLSE
 pip install .
 
 echo "Installation complete!"
-echo "Activate with: conda activate nlse"
+echo "IMPORTANT: Deactivate and reactivate the environment to apply CUDA_HOME:"
+echo "  conda deactivate"
+echo "  conda activate nlse"
 ```
 
 Run with:
 ```bash
 chmod +x install_nlse_gpu.sh
 ./install_nlse_gpu.sh
+```
+
+---
+
+## Troubleshooting
+
+### Error: "cannot open source file cuda_fp16.h"
+
+If you see this error when running benchmarks or other examples:
+
+```
+catastrophic error: cannot open source file "cuda_fp16.h"
+```
+
+**Solution:** The CUDA header symlinks might be missing. Run:
+
+```bash
+conda activate nlse
+mkdir -p $CONDA_PREFIX/include
+cd $CONDA_PREFIX/include
+ln -sf ../targets/x86_64-linux/include/*.h .
+```
+
+Also ensure `CUDA_HOME` is set:
+```bash
+echo $CUDA_HOME  # Should show your conda environment path
+# If empty, set it:
+conda env config vars set CUDA_HOME=$CONDA_PREFIX -n nlse
+conda deactivate && conda activate nlse
 ```
 
 ---
