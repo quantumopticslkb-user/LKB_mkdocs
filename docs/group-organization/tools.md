@@ -47,9 +47,11 @@ This is the procedure to gain access to all the Google calendars with the Google
 ## Lab calendars
 
 There is a calendar to follow all the LKB Seminars (opened to every LKB staff) :
+
 [https://calendar.google.com/calendar?cid=bjh2aHR2dGQ5cjBqdHVqYmU2bmM5bzRuaDhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ](https://calendar.google.com/calendar?cid=bjh2aHR2dGQ5cjBqdHVqYmU2bmM5bzRuaDhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ)
 
 Another one is available to track PhD seminars and PhD defences :
+
 [https://docs.google.com/spreadsheets/d/1XOLBEDn33Xu8hcnSyKGMrtSsFU8zMVIlQrbNCBR3ssw/edit?gid=566330698#gid=566330698](https://docs.google.com/spreadsheets/d/1XOLBEDn33Xu8hcnSyKGMrtSsFU8zMVIlQrbNCBR3ssw/edit?gid=566330698#gid=566330698)
 
 ## Group github
