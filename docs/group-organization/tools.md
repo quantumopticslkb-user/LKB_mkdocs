@@ -45,15 +45,15 @@ This is the procedure to gain access to all the Google calendars with the Google
 - if you are part of the Rb team, also add: [https://groups.google.com/g/eq15b-rubidium](https://groups.google.com/g/eq15b-rubidium)
 
 - Linkts to all the specific calendars to follow PI's schedules, days off, ...
-!!! info
-    **Meeting Rb:** https://calendar.google.com/calendar/r?cid=MTk4NGUwZDhjNWNkNGQyYjUxMDM2NWYyNTM1MjlmMDU3M2YyMjBlNjliOWRlNDRiNjlmN2YxNzZhODg5MWFjOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&ctok=ZXExNWJAZ29vZ2xlZ3JvdXBzLmNvbQ&es=3
-    **Noémie:** https://calendar.google.com/calendar/render?cid=ebbaa613d62824c4361a79ddc5c92193db61fa0a557336a7f1b5ecc85afd5978@group.calendar.google.com&es=3
-    **Quentin G:** https://calendar.google.com/calendar/render?cid=no7km9edusduafed40t62v2cfc@group.calendar.google.com&es=3
-    **Alberto:** https://calendar.google.com/calendar/render?cid=51fl4conuui3mqbg7jr242dndo@group.calendar.google.com&es=3
-    **Stage :** https://calendar.google.com/calendar/render?cid=4m7lr9tiipcoc5m6il0unlnq7s@group.calendar.google.com&es=3
-    **Hanna:** https://calendar.google.com/calendar/render?cid=399393493nvg00qo6tc80mjhrg@group.calendar.google.com
-    **Quantum Optics :** https://calendar.google.com/calendar/render?cid=quantumoptics.lkb@gmail.com
-    **Absences:** https://calendar.google.com/calendar/render?cid=n9f5c3h5bmodpf6liie4iojb48@group.calendar.google.com
+
+    **Meeting Rb:** [add calendar](https://calendar.google.com/calendar/r?cid=MTk4NGUwZDhjNWNkNGQyYjUxMDM2NWYyNTM1MjlmMDU3M2YyMjBlNjliOWRlNDRiNjlmN2YxNzZhODg5MWFjOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&ctok=ZXExNWJAZ29vZ2xlZ3JvdXBzLmNvbQ&es=3)<br>
+    **Noémie:** [add calendar](https://calendar.google.com/calendar/render?cid=ebbaa613d62824c4361a79ddc5c92193db61fa0a557336a7f1b5ecc85afd5978@group.calendar.google.com&es=3)<br>
+    **Quentin G:** [add calendar](https://calendar.google.com/calendar/render?cid=no7km9edusduafed40t62v2cfc@group.calendar.google.com&es=3)<br>
+    **Alberto:** [add calendar](https://calendar.google.com/calendar/render?cid=51fl4conuui3mqbg7jr242dndo@group.calendar.google.com&es=3)<br>
+    **Stage:** [add calendar](https://calendar.google.com/calendar/render?cid=4m7lr9tiipcoc5m6il0unlnq7s@group.calendar.google.com&es=3)<br>
+    **Hanna:** [add calendar](https://calendar.google.com/calendar/render?cid=399393493nvg00qo6tc80mjhrg@group.calendar.google.com)<br>
+    **Quantum Optics:** [add calendar](https://calendar.google.com/calendar/render?cid=quantumoptics.lkb@gmail.com)<br>
+    **Absences Thésards:** [add calendar](https://calendar.google.com/calendar/render?cid=n9f5c3h5bmodpf6liie4iojb48@group.calendar.google.com)
 
 ## Lab calendars
 
