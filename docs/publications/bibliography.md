@@ -3,13 +3,15 @@ title: 'How to make a bibliography'
 category: Tutorials
 ---
 
-## How to access articles
+## How to access articles (for free)
 
 If like myself you're not too happy that your university have to pay for
 journals with public money, to access research funded by public money, I
 suggest to bypass the middlemens while we lack a better system.
 
-[Anna's archive](https://annas-archive.org/) is a digital library, they
+
+### Anna's Archive
+[Anna's archive](https://en.wikipedia.org/wiki/Anna%27s_Archive) is a digital library, they
 currently reference 16% of all book ever issued with an ISBN
 [[1]](https://annas-archive.org/blog/all-isbns.html). The source code
 for the website is [openly available](https://software.annas-archive.li/AnnaArchivist/annas-archive).
@@ -27,6 +29,13 @@ When looking for a paper, provide the [doi](https://en.wikipedia.org/wiki/Digita
 of the paper, usually found on the journal's webpage where the paper has been published.
 This is more reliable than providing the paper's title.
 
+### CNRS Click and Read :
+[CNRS Click and Read](https://clickandread.inist.fr/) is a Firefox extention that allows you to acces articles directly, bypassing the usual institution check. To activate it, download the extention and choose the institution you belong to. In LKB you can choose 'CNRS Physics' and 'Sorbonne university'.
+
+If the installation is done properly, a small green symbol will appear next to every article link (and next to the DOIs). Click it and Read.
+
+If the article you get from the extention is not the version you desire, you can change the ordering of the sources in the extention settings (for instance, to get articles from Science you should place "BIBCNRS Physics" as your prefered source).
+
 
 ## How to store bibliography
 
@@ -35,7 +44,7 @@ different computers, and that it's hard to keep track of what is where.
 Especially when you want to share them with other people. The lab decided
 to use [zotero](https://www.zotero.org/) to keep a centralised database of
 articles members of the group found useful. You can sign up for free, and
-ask Maxime Jacquet to add you to the group's library.
+ask the aministrators to add you to the group's library.
 
 ## How to monitor literature
 
