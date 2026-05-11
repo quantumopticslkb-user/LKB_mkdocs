@@ -25,15 +25,17 @@ Used for communication inside the team and with other lkb members.
     
 ## Group meetings
 
-Every two weeks, on Monday morning, we have either a general group meeting where one person presents his/her work, or a journal club, where one person presents a paper. Ideally, for the journal club, the presenter opens a vote between three papers about one week in advance so that the rest of the group picks their favorite.
+Every two weeks, on Tuesday morning, we have either a general group meeting where one person presents his/her work, or a journal club, where one person presents a paper. Ideally, for the journal club, the presenter opens a vote between three papers about one week in advance so that the rest of the group picks their favorite.
 
 Then each sub-team (Rb, polaritons, nano) have a separate meeting approximately once a week.
 
 The calendar of the group meeting/journal club presentations (who presents when) is in the google group calendar...
 
-## Google groups and calendars
+## Google groups and calendars [Deprecated]
 
-This is the procedure to gain access to all the Google calendars with the Google group : 
+This is the procedure not valid anymore. We are moving to NextCloud for the calendar so we will not use Google calendars in the future.
+Please check the [NextCloud calendar guide](./group_calendar.md) for the new procedure.
+<!-- to gain access to all the Google calendars with the Google group : 
 
 - go to [groups.google.com/g/eq15b](https://groups.google.com/g/eq15b) once you have received the invite
 - go to "Conversations"
@@ -42,7 +44,7 @@ This is the procedure to gain access to all the Google calendars with the Google
 !!! warning
     Please, try to refrain using the quantumopticslkb@gmail.com account! This is a "quick and dirty" solution that has caused a lot of issues in the past since people were using it without realizing, messing up permissions / important organization stuff.
 
-- if you are part of the Rb team, also add: [https://groups.google.com/g/eq15b-rubidium](https://groups.google.com/g/eq15b-rubidium)
+- if you are part of the Rb team, also add: [https://groups.google.com/g/eq15b-rubidium](https://groups.google.com/g/eq15b-rubidium) -->
 
 ## Group github
 You have to share your codes [here](https://github.com/Quantum-Optics-LKB). 

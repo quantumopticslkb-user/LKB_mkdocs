@@ -55,7 +55,7 @@ These are first steps when you arrive. The following sections outline everything
 - Be sure to have access to all the group calendars.
 - Create a GitHub account, join the [Group github](https://github.com/Quantum-Optics-LKB ) and [learn how to use it](/group-organization/tools/).
     * Check that you have push access on the group github.
-- Join the [group calendar](/group-organization/tools/)
+- Join the [group NextCloud for calendar](/group-organization/group_calendar.md).
 - Create a [Zotero account](/group-organization/tools/) and join the [group library](https://www.zotero.org/groups/4622968/quantumopticslkb)
 - Create an Overleaf account
 
