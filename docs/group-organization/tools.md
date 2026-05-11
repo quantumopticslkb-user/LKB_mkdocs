@@ -46,6 +46,27 @@ Please check the [NextCloud calendar guide](./group_calendar.md) for the new pro
 
 - if you are part of the Rb team, also add: [https://groups.google.com/g/eq15b-rubidium](https://groups.google.com/g/eq15b-rubidium) -->
 
+- Linkts to all the specific calendars to follow PI's schedules, days off, ...
+
+    **Meeting Rb:** [add calendar](https://calendar.google.com/calendar/r?cid=MTk4NGUwZDhjNWNkNGQyYjUxMDM2NWYyNTM1MjlmMDU3M2YyMjBlNjliOWRlNDRiNjlmN2YxNzZhODg5MWFjOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&ctok=ZXExNWJAZ29vZ2xlZ3JvdXBzLmNvbQ&es=3)<br>
+    **Noémie:** [add calendar](https://calendar.google.com/calendar/render?cid=ebbaa613d62824c4361a79ddc5c92193db61fa0a557336a7f1b5ecc85afd5978@group.calendar.google.com&es=3)<br>
+    **Quentin G:** [add calendar](https://calendar.google.com/calendar/render?cid=no7km9edusduafed40t62v2cfc@group.calendar.google.com&es=3)<br>
+    **Alberto:** [add calendar](https://calendar.google.com/calendar/render?cid=51fl4conuui3mqbg7jr242dndo@group.calendar.google.com&es=3)<br>
+    **Stage:** [add calendar](https://calendar.google.com/calendar/render?cid=4m7lr9tiipcoc5m6il0unlnq7s@group.calendar.google.com&es=3)<br>
+    **Hanna:** [add calendar](https://calendar.google.com/calendar/render?cid=399393493nvg00qo6tc80mjhrg@group.calendar.google.com)<br>
+    **Quantum Optics:** [add calendar](https://calendar.google.com/calendar/render?cid=quantumoptics.lkb@gmail.com)<br>
+    **Absences Thésards:** [add calendar](https://calendar.google.com/calendar/render?cid=n9f5c3h5bmodpf6liie4iojb48@group.calendar.google.com)
+
+## Lab calendars
+
+There is a calendar to keep track of all the LKB Seminars (they are opened to every LKB staff) :
+
+[https://calendar.google.com/calendar?cid=bjh2aHR2dGQ5cjBqdHVqYmU2bmM5bzRuaDhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ](https://calendar.google.com/calendar?cid=bjh2aHR2dGQ5cjBqdHVqYmU2bmM5bzRuaDhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ)
+
+Another one is available to track PhD seminars and PhD defenses :
+
+[https://docs.google.com/spreadsheets/d/1XOLBEDn33Xu8hcnSyKGMrtSsFU8zMVIlQrbNCBR3ssw/edit?gid=566330698#gid=566330698](https://docs.google.com/spreadsheets/d/1XOLBEDn33Xu8hcnSyKGMrtSsFU8zMVIlQrbNCBR3ssw/edit?gid=566330698#gid=566330698)
+
 ## Group github
 You have to share your codes [here](https://github.com/Quantum-Optics-LKB). 
 

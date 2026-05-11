@@ -50,6 +50,23 @@ Details about each step are listed below.
 !!! Exception
     In rare occasions, planets align and you may be awarded the right to use the Lab Credit Card. It is stored in Quentin's and Alberto's office and the secret code is passed on from generations to generations. If you use this card then you **always need to get a bill** from the supplier. A card ticket is not enough! (unless it is stamped by the company)
 
+    Proceed as follows :
+    
+    1 - The lab has CNRS credit cards and SU credit cards => For each purchase, be sure to select the research credit/contract managed by the organization that issued the credit card you are using.
+    
+    2 - Enter “CNRS” or “SORBONNE UNIVERSITÉ” when entering your details: the address/name on the invoice must include at least this reference to the organization
+    
+    3 - Provide the administrators with the necessary information for processing the purchase immediately upon purchase: **ideally the "Bon de Commande" form** (including the credit, nomenclature code/NACRES, etc.) as well as the order details with prices, VAT rates, etc.: receipt, confirmation email, screenshot, etc.
+    
+    This information allows administrators to process the purchase in our funding agencies’ payment system: this processing must take place within 5 days of the purchase
+    
+    4 - Then remember to **provide them with the invoice** => request it from the supplier if they do not send it automatically
+    
+    Note: “Receipts” and other order or registration “confirmations” are not invoices, nor are credit card receipts.
+    
+    5 - Finally, remember to provide the administrators with signed and dated delivery slips, as with any purchase.
+
+
 ### Asking a quote
 
 When you are shopping for a brand new item for your lab, you need to first check the sellers with whom we have a discount. Those include : **Thorlabs**, **Edmund Optics**, **RS Electronics** (and more but you need to check with the administrative office). For these companies, we usually have a client number to fill out in order to see the discounted prices at checkout.\
