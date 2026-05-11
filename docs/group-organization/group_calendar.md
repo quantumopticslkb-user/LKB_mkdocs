@@ -1,152 +1,143 @@
-# Guide des Calendriers Partagés — Équipe 15B (LKB)
+# Shared Calendars Guide
 
-> Serveur Nextcloud : **https://cal.quantumoptics.fr**
-
----
-
-## 1. Première connexion
-
-### Créer votre compte / se connecter
-
-1. Ouvrez [https://cal.quantumoptics.fr](https://cal.quantumoptics.fr) dans votre navigateur.
-2. Identifiants :
-   - **Login :** `prenom_nom` (ex. `quentin_glorieux`, `alberto_bramati`, `hanna_veksler`)
-   - **Mot de passe initial :** `lkblkb2026`
-3. **Changez votre mot de passe immédiatement** après la première connexion :  
-   `Paramètres (icône en haut à droite) → Sécurité → Changer le mot de passe`
+> Nextcloud server: **https://cal.quantumoptics.fr**
 
 ---
 
-## 2. Groupes d'appartenance
+## 1. First login
 
-À votre arrivée, l'administrateur vous affecte automatiquement aux groupes correspondant à votre profil.
+1. Open [https://cal.quantumoptics.fr](https://cal.quantumoptics.fr) in your browser.
+2. Credentials:
+   - **Login:** `firstname_lastname` (e.g. `quentin_glorieux`)
+   - **Initial password:** `lkblkb2026`
+3. **Change your password immediately** after the first login:  
+   `Settings (top-right icon) → Security → Change password`
 
-| Groupe | Membres |
-|--------|---------|
-| `eq15b` | Tous les membres de l'équipe |
-| `rb` | Membres de l'équipe Rb |
-| `nano` | Membres de l'équipe Nano |
-| `polaritons` | Membres de l'équipe Polaritons |
+---
+
+## 2. Groups
+
+When you join, the administrator assigns you to the groups matching your profile.
+
+| Group | Members |
+|-------|---------|
+| `eq15b` | All team members |
+| `rb` | Rb team members |
+| `nano` | Nano team members |
+| `polariton` | Polaritons team members |
 | `permanents` | Quentin, Alberto, Hanna |
-| `phd` | Doctorants |
-| `postdocs` | Post-doctorants |
-| `interns` | Stagiaires |
-| `visitors` | Visiteurs |
+| `phd` | PhD students |
+| `postdocs` | Postdoctoral researchers |
+| `interns` | Interns |
+| `visitors` | Visitors |
 
-Si vous n'êtes pas dans le bon groupe, contactez l'administrateur.
+If you are missing from a group, contact the administrator.
 
 ---
 
-## 3. Calendriers disponibles
+## 3. Available calendars
 
-### 3.1 Calendriers partagés par l'administration
+### 3.1 Calendars shared by the admin
 
-L'admin partage automatiquement un ensemble de calendriers selon votre groupe d'appartenance. Chaque lab dispose de trois calendriers :
+The admin automatically shares calendars based on your group membership. Each lab has three calendars:
 
-| Calendrier | Contenu | Accès |
-|------------|---------|-------|
-| `RbLab` / `NanoLab` / `PolaritonLab` | Infos générales du labo (réunions, manips, événements) | **Lecture / Écriture** |
-| `RbOff` / `NanoOff` / `PolaritonOff` | Absences, congés, enseignement, déplacements | **Lecture / Écriture** |
-| `RbInterns` / `NanoInterns` / `PolaritonInterns` | Planification des stages (arrivées, départs) | **Lecture seule** |
+| Calendar | Content | Access |
+|----------|---------|--------|
+| `RbLab` / `NanoLab` / `PolaritonLab` | General lab info (meetings, experiments, events) | **Read / Write** |
+| `RbOff` / `NanoOff` / `PolaritonOff` | Absences, holidays, teaching, travel | **Read / Write** |
+| `RbInterns` / `NanoInterns` / `PolaritonInterns` | Intern planning (arrivals, departures) | **Read only** |
 
-> Les calendriers `Interns` sont gérés par les permanents uniquement.
+> The `Interns` calendars are managed by permanent staff only.
 
-### 3.2 Calendriers des permanents
+### 3.2 Permanent staff calendars
 
-Chaque permanent partage un calendrier personnel avec l'équipe :
+Each permanent staff member shares a personal calendar with the team:
 
-| Calendrier | Propriétaire |
-|------------|-------------|
+| Calendar | Owner |
+|----------|-------|
 | `Quentin` | Quentin Glorieux |
 | `Alberto` | Alberto Bramati |
-| `Hanna` | Hanna Veksler |
+| `Hanna` | Hanna Le Jeannic |
 
-### 3.3 Calendriers des autres équipes (lecture seule)
+### 3.3 Other teams' calendars (read only)
 
-Si vous êtes dans l'équipe Rb, vous avez accès en **lecture seule** aux calendriers `NanoLab`, `NanoOff`, `PolaritonLab`, `PolaritonOff` (et réciproquement). Cela permet de coordonner les ressources partagées et de rester informé.
-
----
-
-## 4. Ce que vous devez faire
-
-### Signaler vos absences — obligatoire
-
-Dès que vous êtes absent (congés, déplacement, enseignement, télétravail prolongé…), **ajoutez un événement dans le calendrier `Off` de votre équipe** :
-
-- `RbOff` pour l'équipe Rb
-- `NanoOff` pour l'équipe Nano
-- `PolaritonOff` pour l'équipe Polaritons
-
-Indiquez clairement la raison (ex. `Congés`, `Conférence — Paris`, `Enseignement L3`).
-
-### Ajouter des infos de labo
-
-Utilisez le calendrier `Lab` de votre équipe pour les événements collectifs : réunions de groupe, séminaires internes, accès à la manip, etc.
+If you are in the Rb team, you have **read-only** access to `NanoLab`, `NanoOff`, `PolaritonLab`, `PolaritonOff` (and vice versa). This helps coordinate shared resources and stay informed across teams.
 
 ---
 
-## 5. Calendriers personnels
+## 4. What you need to do
 
-Vous pouvez créer des calendriers personnels et choisir librement avec qui les partager.
+### Report your absences — mandatory
 
-**Exemples d'usage :**
-- Calendrier `Bières` partagé avec le groupe `phd`
-- Calendrier `Séminaires` partagé avec `permanents`
-- Calendrier privé (visible par vous seul)
+Whenever you are away (holidays, travel, teaching, extended remote work…), **add an event to your team's `Off` calendar**:
 
-**Comment partager un calendrier personnel :**
+- `RbOff` for the Rb team
+- `NanoOff` for the Nano team
+- `PolaritonOff` for the Polaritons team
 
-1. Dans l'interface web, cliquez sur `...` à côté du calendrier.
-2. Choisissez **Partager avec des utilisateurs ou des groupes**.
-3. Tapez un nom de groupe (`phd`, `permanents`, `eq15b`…) ou un login individuel (`quentin_glorieux`).
-4. Choisissez le niveau d'accès (lecture seule ou lecture/écriture).
+Include a clear reason and your initials in the event title (e.g. `QG — Holidays`, `AB — Conference Paris`, `HLJ — Teaching L3`).
 
-Vous pouvez également garder un calendrier **entièrement privé** — il ne sera visible par personne d'autre.
+### Add lab-wide information
+
+Use your team's `Lab` calendar for collective events: group meetings, internal seminars, shared equipment bookings, etc.
 
 ---
 
-## 6. Accès depuis votre application de calendrier
+## 5. Personal calendars
 
-Vous pouvez synchroniser les calendriers avec votre application habituelle (Thunderbird, Apple Calendar, Google Calendar, Outlook…) via le protocole **CalDAV**.
+You can create personal calendars and choose freely who to share them with.
 
-| Paramètre | Valeur |
-|-----------|--------|
-| Adresse du serveur | `https://cal.quantumoptics.fr` ou `cal.quantumoptics.fr` |
-| Login | `prenom_nom` |
-| Mot de passe | votre mot de passe Nextcloud |
+**Example uses:**
+- A `Beers` calendar shared with the `phd` group
+- A `YourFirstName` calendar shared with `permanents`
+- A fully private calendar (visible only to you)
 
-**Thunderbird (Thunderbird Calendar / Lightning) :**  
-`Nouveau calendrier → Sur le réseau → CalDAV → https://cal.quantumoptics.fr`
+**How to share a personal calendar:**
 
-**Apple Calendar (macOS / iOS) :**  
-`Préférences → Comptes → Ajouter un compte → Autre compte CalDAV → https://cal.quantumoptics.fr`
+1. In the web interface, click `...` next to the calendar name.
+2. Select **Share with users or groups**.
+3. Type a group name (`phd`, `permanents`, `eq15b`…) or an individual login (`quentin_glorieux`).
+4. Choose the access level (read only or read/write).
 
-**Android (ex. DAVx⁵) :**  
-Installez [DAVx⁵](https://www.davx5.com/), ajoutez un compte avec l'URL `https://cal.quantumoptics.fr`.
-
----
-
-## 7. Résumé des droits d'accès
-
-| Calendrier | Votre équipe | Autres équipes |
-|------------|:------------:|:--------------:|
-| `[Votre]Lab` | ✏️ R/W | 👁️ Lecture seule |
-| `[Votre]Off` | ✏️ R/W | 👁️ Lecture seule |
-| `[Votre]Interns` | 👁️ Lecture seule | ✗ Non visible |
-| `[Autre]Lab` | 👁️ Lecture seule | — |
-| `[Autre]Off` | 👁️ Lecture seule | — |
-| Calendriers permanents | 👁️ Lecture seule | — |
-| Calendrier personnel | ✏️ R/W | selon votre choix |
+You can also keep a calendar **entirely private** — no one else will see it.
 
 ---
 
-## 8. Contacts et administration
+## 6. Access from your calendar app
 
-Pour toute question (compte bloqué, accès manquant, calendrier non visible) :
+You can sync the calendars with your usual app (Thunderbird, Apple Calendar, Google Calendar, Outlook…) via the **CalDAV** protocol.
 
-- **Quentin Glorieux** — quentin_glorieux / [quentinglorieux@gmail.com](mailto:quentinglorieux@gmail.com)
-- Ou contacter directement l'administrateur du serveur Nextcloud.
+| Parameter | Value |
+|-----------|-------|
+| Server address | `https://cal.quantumoptics.fr` or `cal.quantumoptics.fr` |
+| Login | `firstname_lastname` |
+| Password | your Nextcloud password |
+
+**Thunderbird:**  
+`New calendar → On the network → CalDAV → https://cal.quantumoptics.fr`
+
+**Apple Calendar (macOS / iOS):**  
+`Settings → Accounts → Add account → Other CalDAV account → https://cal.quantumoptics.fr`
+
+**Android (e.g. DAVx⁵):**  
+Install [DAVx⁵](https://www.davx5.com/), add an account with URL `https://cal.quantumoptics.fr`.
 
 ---
 
-*Document maintenu par l'équipe Eq15B — LKB*
+## 7. Access rights summary
+
+| Calendar | Your team | Other teams |
+|----------|:---------:|:-----------:|
+| `[Your]Lab` | R/W | Read only |
+| `[Your]Off` | R/W | Read only |
+| `[Your]Interns` | Read only | Not visible |
+| `[Other]Lab` | Read only | — |
+| `[Other]Off` | Read only | — |
+| Permanent staff calendars | Read only | — |
+| Personal calendar | R/W | your choice |
+
+---
+
+## 8. Contact & administration
+
+For any issue (locked account, missing access, calendar not showing up): contact **Quentin G.**
