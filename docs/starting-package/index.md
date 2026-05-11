@@ -52,7 +52,6 @@ These are first steps when you arrive. The following sections outline everything
 - [Join](/group-organization/tools/) LKB-mattermost and Quantum-mattermost (and the channels inside)
     - Channels: within Mattermost there are channels for different topics. Be sure to join the channels that are relevant to you. You **must** join the channels #Group_Meeting, #Bibliography, #ESSENTIAL, #Lunch.
     - Boards: We use Mattermost boards to organize our work. Join EQ15B-Wishlist and Orders.
-- Be sure to have access to all the group calendars.
 - Create a GitHub account, join the [Group github](https://github.com/Quantum-Optics-LKB ) and [learn how to use it](/group-organization/tools/).
     * Check that you have push access on the group github.
 - Join the [group NextCloud for calendar](/group-organization/group_calendar.md).
