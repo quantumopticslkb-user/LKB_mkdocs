@@ -34,7 +34,7 @@ The calendar of the group meeting/journal club presentations (who presents when)
 ## Google groups and calendars [Deprecated]
 
 This is the procedure not valid anymore. We are moving to NextCloud for the calendar so we will not use Google calendars in the future.
-Please check the [NextCloud calendar guide](./group_calendar) for the new procedure.
+Please check the [NextCloud calendar guide](/group_calendar) for the new procedure.
 <!-- to gain access to all the Google calendars with the Google group : 
 
 - go to [groups.google.com/g/eq15b](https://groups.google.com/g/eq15b) once you have received the invite
