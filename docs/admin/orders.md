@@ -81,7 +81,7 @@ Once you finish your basket, you need to **ask for a quote** and not try to fini
     For **Thorlabs** orders, it depends on the credit you use: <br>
     <br>
     (1) if **SU credit**: <br>
-    - Use customer ID 408572 to get a **10% discount!** (except specific items like microscope objectives). <br>
+    - Use customer ID 404888 to get a **10% discount!** (except specific items like microscope objectives). <br>
     - Be sure to use the following billing adress: <br>
     **Sorbonne Université - Comptabilite Fournisseur - BC 500 4 place Jussieu, 75005 Paris, France** <br>
     - I you don't have it already, send an email to TL reminding them that you have 10% discount for Quentin Glorieux's group to get the final quotation. <br>
